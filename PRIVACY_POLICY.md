@@ -3,7 +3,7 @@
 
 Last Updated: May 1st 2026
 
-Founder: @horimiya_lover8053 on Discord
+Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
 Legal Jurisdiction: Germany (DE) - GDPR Compliant
 
