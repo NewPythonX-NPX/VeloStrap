@@ -1,38 +1,30 @@
 --------------------------------------------------------------
 # 📜 NewPythonX Studio - Official License
 
-Last Updated: April 1st 2026
+Last Updated: May 10th 2026
 
-Founder: @horimiya_lover8053 on Discord
+Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
 Legal Jurisdiction: Germany (DE) - GDPR Compliant
-
-Copyright (c) 2026 @horimiya_lover8053 & NewPythonX Studio
-All rights reserved.
-
 --------------------------------------------------------------
 
-Disclaimer:
-The source code is open for everyone to study, learn from, and use ONLY if you follow the rules within this file.
+The source code is open for everyone to study, learn from, and use ONLY if you follow these rules.
 
-🔴 Non-Negotiable License Rules
+🔴 Rules You Must Follow (No Negotiation)
 
-Mandatory Credit: If you use any part of this code, or if your project is "Heavily Inspired" by my logic, 
-you must give clear credit to @horimiya_lover8053 and NewPythonX Studio.
+Give Credit:
+If you use any part of this code, or if your project is clearly based on my logic, you must clearly credit @horimiya_lover8053 and NewPythonX Studio.
 
-Brand & Logo Protection: The "NewPythonX" name and the official logo are the exclusive property of NewPythonX Studio. 
-Using NPX's brand name or logo in your own project will result in an immediate Copyright Strike.
+Don't Use Our Brand:
+The "NewPythonX" name and logo belong to NPX Studios. Using our brand name or logo in your own project will get you a copyright strike.
 
-No Liability: This software is provided as-is. 
-NewPythonX Studio or Hori is not responsible for any crashes, bugs, that may occur while using this launcher.
+We Are Not Responsible:
+This software is "as-is." NPX Studios (Hori) is not responsible for any crashes, bugs, or problems from using this software.
 
-Obfuscation:
-You are NOT allowed to change the app version or debug, this is strictly use for Hori and the Contributers. And
-if your a commerical member you get these cheat sheets which show you how to change them, HOWEVER you are not allowed to
-give or change the actual code with that.
+Don't Change the App Version:
+You are NOT allowed to change the app version or turn on debug mode. This is only for Hori and contributors. If you're a commercial member, you get cheat sheets showing you how to make changes, BUT you are not allowed to share those changes with others.
 
-🟢 Negotiable License Rules
+🟢 Rules You Can Negotiate
 
-Commercial Use: You are strictly prohibited from selling this software or using this code for any commercial gain UNLESS 
-you have a signed agreement from any Negotiator. 
-Commercial use is negotiable. Contact a Negotiator via Discord Server to discuss terms with them.
+Making Money:
+You are NOT allowed to sell this software or use this code to make money UNLESS you have a signed agreement from a Negotiator. Commercial use can be discussed. Contact a Negotiator on our Discord Server to talk about terms.
