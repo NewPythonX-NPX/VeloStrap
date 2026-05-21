@@ -35,21 +35,13 @@ from tkinter import messagebox, filedialog
 # ==========================================
 
 # DO NOT CHANGE
-APP_VERSION = "".join([chr(x) for x in [0x30, 0x2e, 0x32, 0x2e, 0x30]]) 
+APP_VERSION = "Random String" 
 
 # DO NOT CHANGE
-DEBUG_TEST = bool(int("1"))
+DEBUG_TEST = False # Self-explaintory if you read code, else this just skips update checkes and give your extra info.
 
 APP_IDS = [
-    "hmm_revampYAYYYWEREVAMPEDABIT",
-    "ERMWEFINNALYREMOVEDBLOAT_ihaterobloxallowlist",
-    "YOTHEBIGGESTUPDATEYETISFFASTFLAGEDI--TAR",
-    "Man_Idk_IHAVEDACUSTUMID_S",
-    "OMG_DA_AUTODOWNLOADISDA_ASIAN",
-    "UNREBRANDED_THE_BANANASTRAP",
-    "HELO_DISCORDRPC_HASBEENADDEDGUYS_smallupdatethough_STILLGUDD!",
-    "YO_PROFILESFEATUREFINNALYCAMEOUT_IVEBEENHYPED",
-    "EASTERTIME_AND_SUMMERJUICETIME",
+    "NewIDSWillBeHereButIwontDisplayHere"
     "VeloStrapIsNew_26thMarch"
 ]
 
@@ -58,7 +50,7 @@ VersionDetectionURL = "https://raw.githubusercontent.com/NewPythonX-NPX/version-
 
 # OTHER STUFF
 
-DISCORD_CLIENT_ID = "1488431517527965798" 
+DISCORD_CLIENT_ID = "Scraped" 
 ROBLOX_MUTEX_NAME = "ROBLOX_singletonEvent"
 ROBLOX_LIVE_VERSION_API = "https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/live"
 DEFAULT_RENDERING = "DX11 (Standard)"
