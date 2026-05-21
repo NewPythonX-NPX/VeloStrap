@@ -38,6 +38,9 @@ from tkinter import messagebox, filedialog
 APP_VERSION = "Random String" 
 
 # DO NOT CHANGE
+SNAPSHOT_VERSION = "snapshot-random"
+
+# DO NOT CHANGE
 DEBUG_TEST = False # Self-explaintory if you read code, else this just skips update checkes and give your extra info.
 
 APP_IDS = [
