@@ -39,10 +39,12 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 **Creator & Lead Developer**
 * **@horimiya_lover8053** - NewPythonX Studio (NPX)
+* Frontend Programmar (no backend, and text as frontend)
 
 **AI Assistants**
-* **Gemini AI** - Senior Programmar
-* **ChatGPT (Codex)** - Retired Lead Programmer
+* **DeepSeek** - New Programmar
+* **Gemini (Pro)** - Deprecated Use
+* **ChatGPT (Codex)** - Deprecated Use
 
 ---
 
