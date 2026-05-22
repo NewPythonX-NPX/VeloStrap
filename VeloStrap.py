@@ -8,6 +8,8 @@
 # THIS PROJECT WAS CREATED WITH THE HELP OF AI USAGE, AI'S LISTED IN README.
 # =================================================================
 
+import tkinter
+from typing import Any
 import requests
 import os
 import time
@@ -15,7 +17,7 @@ import random
 import asyncio
 import sys
 import webbrowser
-import customtkinter as ctk
+import customtkinter as ctk # pyright: ignore[reportMissingTypeStubs]
 import subprocess
 import json
 import threading
@@ -23,7 +25,7 @@ import shutil
 import re
 import traceback
 from PIL import Image
-from pypresence import Presence
+from pypresence import Presence # pyright: ignore[reportPrivateImportUsage]
 import ctypes
 import datetime
 import socket
@@ -35,25 +37,34 @@ from tkinter import messagebox, filedialog
 # ==========================================
 
 # DO NOT CHANGE
-APP_VERSION = "Random String" 
+APP_VERSION = "0.2.0"
+
+SNAPSHOT_VERSION = "snapshot-1"
 
 # DO NOT CHANGE
-SNAPSHOT_VERSION = "snapshot-random"
-
-# DO NOT CHANGE
-DEBUG_TEST = False # Self-explaintory if you read code, else this just skips update checkes and give your extra info.
+DEBUG_TEST = False  
+# Set to True to skip update check and show debug info. 
 
 APP_IDS = [
-    "NewIDSWillBeHereButIwontDisplayHere"
+    "YEPPIE_VELOSTRAPISADDINGSSNAPHSOTSSSNOWW-NOWWECANPALYEARLY*in_a_deepvoice*",
+    "hmm_revampYAYYYWEREVAMPEDABIT",
+    "ERMWEFINNALYREMOVEDBLOAT_ihaterobloxallowlist",
+    "YOTHEBIGGESTUPDATEYETISFFASTFLAGEDI--TAR",
+    "Man_Idk_IHAVEDACUSTUMID_S",
+    "OMG_DA_AUTODOWNLOADISDA_ASIAN",
+    "UNREBRANDED_THE_BANANASTRAP",
+    "HELO_DISCORDRPC_HASBEENADDEDGUYS_smallupdatethough_STILLGUDD!",
+    "YO_PROFILESFEATUREFINNALYCAMEOUT_IVEBEENHYPED",
+    "EASTERTIME_AND_SUMMERJUICETIME",
     "VeloStrapIsNew_26thMarch"
 ]
 
 APP_NAME = "VeloStrap" 
 VersionDetectionURL = "https://raw.githubusercontent.com/NewPythonX-NPX/version-detection/refs/heads/main/ExtraAppIDsForVeloStrap?v1"
 
-# OTHER STUFF
+# OTHER IMPORTANT STUFF
 
-DISCORD_CLIENT_ID = "Scraped" 
+DISCORD_CLIENT_ID = "Scraped"
 ROBLOX_MUTEX_NAME = "ROBLOX_singletonEvent"
 ROBLOX_LIVE_VERSION_API = "https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/live"
 DEFAULT_RENDERING = "DX11 (Standard)"
@@ -80,7 +91,7 @@ MESH_QUALITY_LABELS = ["Lowest", "Low", "Normal", "High", "Highest"]
 # Roblox only allowlists the geometry LOD distance flags themselves. The non-default
 # presets below are inferred from community testing; "Normal" intentionally writes
 # nothing so Roblox keeps its own built-in defaults.
-MESH_QUALITY_FLAG_PRESETS = {
+MESH_QUALITY_FLAG_PRESETS = { # pyright: ignore[reportUnknownVariableType]
     0: {
         "DFIntCSGLevelOfDetailSwitchingDistance": 12,
         "DFIntCSGLevelOfDetailSwitchingDistanceL12": 18,
@@ -128,6 +139,7 @@ DEFAULT_PROFILE_PRESETS = {
     "Potato Mode": {
         "Type": "PRESET-PROFILE",
         "Rendering Mode": "DX11 (Standard)",
+        "Texture Quality": "Low",
         "discord_rpc": False,
         "MultiInstance": False,
         "Mouse Cursor Preset": "Default",
@@ -137,6 +149,7 @@ DEFAULT_PROFILE_PRESETS = {
     "Extra Mode": {
         "Type": "PRESET-PROFILE",
         "Rendering Mode": "DX11 (Standard)",
+        "Texture Quality": "Normal",
         "discord_rpc": True,
         "MultiInstance": True,
         "Mouse Cursor Preset": "Default",
@@ -238,7 +251,7 @@ def get_app_directory():
         return os.path.dirname(os.path.abspath(sys.executable))
     return os.path.dirname(os.path.abspath(__file__))
     
-def log_error(error_message):
+def log_error(error_message: Any) -> None:
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     log_file = f"error_log_{timestamp}.txt"
     error_folder = "Error Log"
@@ -269,13 +282,14 @@ def run_update_check():
         print(f">>> DEBUGGING: {APP_NAME} <<<")
         print(f">>> App Version: {APP_VERSION} <<<")
         print(f">>> Debug Mode: {DEBUG_TEST} <<<")
+        print(f">>> Snapshot version: {SNAPSHOT_VERSION} <<<")
         print("------------------------------------------------")
         return
         
     print(f"--- Checking updates for {APP_NAME} ---")
     if not check_internet():
         print("- NO INTERNET CONNECTION. Skipping Update Check.")
-        OFFLINE_MODE = True
+        OFFLINE_MODE = True # pyright: ignore[reportConstantRedefinition]
         return
 
     try:
@@ -309,27 +323,147 @@ def run_update_check():
     except Exception as e:
         print(f"Update Checker Failed: {e}")
         log_error(str(e))
+
+# ==========================================
+# LEGAL BINDER
+# =========================================
+def agreement(parent): # pyright: ignore[reportMissingParameterType, reportUnknownParameterType]
+    """
+    Shows Legal Disclaimers.
+    Returns True only if both are agreed, False otherwise.
+    Agreement status is stored in agreement.json.
+    """
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    agreement_file = os.path.join(script_dir, "agreement.json")
+    eula_path = os.path.join(script_dir, "IMPORTANT", "EULA.md")
+    dev_license_path = os.path.join(script_dir, "IMPORTANT", "License.md")
+    software_license_path = os.path.join(script_dir, "IMPORTANT", "Use-License.md")
+    
+    # --- Load current agreement status ---
+    already_agreed = {}
+    if os.path.exists(agreement_file):
+        try:
+            with open(agreement_file, "r") as f:
+                already_agreed = json.load(f)
+        except (json.JSONDecodeError, KeyError):
+            already_agreed = {}
+
+    # If both are already agreed, skip everything
+    if already_agreed.get("eula_agreed") and already_agreed.get("license_agreed"): # pyright: ignore[reportUnknownMemberType]
+        return True
+
+    # --- Helper to show a modal with markdown content ---
+    def show_agreement_dialog(title, md_path, check_text="I agree to the terms."): # pyright: ignore[reportMissingParameterType, reportUnknownParameterType]
+        # Read content
+        try:
+            with open(md_path, "r", encoding="utf-8") as f: # pyright: ignore[reportUnknownArgumentType]
+                text = f.read()
+        except FileNotFoundError:
+            text = f"Could not load {title} file.\n\nBy proceeding you agree to the {title}."
+
+        dialog = ctk.CTkToplevel(parent) # pyright: ignore[reportUnknownArgumentType]
+        dialog.title(title) # pyright: ignore[reportUnknownArgumentType]
+        dialog.geometry("600x500")
+        dialog.resizable(False, False)
+        dialog.transient(parent) # type: ignore
+        dialog.grab_set()
+        dialog.protocol("WM_DELETE_WINDOW", lambda: None)  # block close
+
+        header = ctk.CTkLabel(dialog, text=title, font=("Arial", 16, "bold")) # pyright: ignore[reportUnknownArgumentType]
+        header.pack(pady=(15, 5)) # pyright: ignore[reportUnknownMemberType]
+
+        textbox = ctk.CTkTextbox(dialog, wrap="word", height=250)
+        textbox.insert("0.0", text) # pyright: ignore[reportUnknownMemberType]
+        textbox.configure(state="disabled")   # pyright: ignore[reportUnknownMemberType] # read-only
+        textbox.pack(pady=5, padx=20, fill="both", expand=True) # pyright: ignore[reportUnknownMemberType]
+
+        agree_var = ctk.BooleanVar(value=False)
+        checkbox = ctk.CTkCheckBox(dialog, text=check_text, variable=agree_var,
+                                   onvalue=True, offvalue=False)
+        checkbox.pack(pady=(10, 5)) # pyright: ignore[reportUnknownMemberType]
+
+        button_frame = ctk.CTkFrame(dialog, fg_color="transparent")
+        button_frame.pack(pady=15) # pyright: ignore[reportUnknownMemberType]
+
+        result_flag = False
+
+        def on_agree():
+            nonlocal result_flag
+            result_flag = True
+            dialog.destroy()
+
+        def on_decline():
+            nonlocal result_flag
+            result_flag = False
+            dialog.destroy()
+
+        agree_btn = ctk.CTkButton(button_frame, text="I Agree", command=on_agree,
+                                  state="disabled", font=("Arial", 14))
+        agree_btn.pack(side="left", padx=10) # pyright: ignore[reportUnknownMemberType]
+
+        decline_btn = ctk.CTkButton(button_frame, text="Decline", command=on_decline,
+                                    fg_color="gray", hover_color="darkred", font=("Arial", 14))
+        decline_btn.pack(side="left", padx=10) # pyright: ignore[reportUnknownMemberType]
+
+        def toggle_agree(*args): # pyright: ignore[reportUnknownParameterType, reportMissingParameterType]
+            agree_btn.configure(state="normal" if agree_var.get() else "disabled") # pyright: ignore[reportUnknownMemberType]
+        agree_var.trace_add("write", toggle_agree) # pyright: ignore[reportUnknownArgumentType]
+
+        parent.wait_window(dialog) # pyright: ignore[reportUnknownMemberType]
+        return result_flag
+
+    # --- Step 1: End User License Agreement ---
+    if not already_agreed.get("eula_agreed"): # pyright: ignore[reportUnknownMemberType]
+        if not show_agreement_dialog("End User License Agreement", eula_path,
+                                     "I have read, accept and understood the EULA."):
+            return False
+        already_agreed["eula_agreed"] = True
+        # Persist immediately so a crash won't ask again
+        with open(agreement_file, "w") as f:
+            json.dump(already_agreed, f, indent=4)
+
+    # --- Step 2: Developer License ---
+    if not already_agreed.get("license_agreed"): # pyright: ignore[reportUnknownMemberType]
+        if not show_agreement_dialog("Developer License", dev_license_path,
+                                     "I have read, accept and understood the Developer License terms."):
+            return False
+        already_agreed["dev_license_agreed"] = True
+        # Save final status
+        with open(agreement_file, "w") as f:
+            json.dump(already_agreed, f, indent=4)
+            
+    # --- Step 3: Software License ---
+    if not already_agreed.get("use_license_agreed"): # pyright: ignore[reportUnknownMemberType]
+        if not show_agreement_dialog("Software Use License", software_license_path,
+                                     "I have read, accept and understood the Software License terms."):
+            return False
+        already_agreed["use_license_agreed"] = True
+        # Save final status
+        with open(agreement_file, "w") as f:
+            json.dump(already_agreed, f, indent=4)
+
+    return True
         
 # ==========================================
 # LOADING SCREEN (CTK)
 # ==========================================
-def show_text_loading_sequence():
+def loading_seq():
     splash = ctk.CTk()
-    
+
     window_width = 1024
     window_height = 576
     splash.overrideredirect(True)
     splash.geometry(f"{window_width}x{window_height}")
-    splash.attributes("-topmost", True)
+    splash.attributes("-topmost", True) # pyright: ignore[reportUnknownMemberType]
     splash.eval('tk::PlaceWindow . center')
 
-    script_dir = os.path.dirname(os.path.abspath(__file__))
+    script_dir = os.path.dirname(os.path.abspath(__file__)) # pyright: ignore[reportUnusedVariable]
     bg_path = resource_path(os.path.join("assets", "background.png"))
-    
+
     try:
-        bg_image_data = Image.open(bg_path) 
-        bg_image = ctk.CTkImage(light_image=bg_image_data, 
-                                dark_image=bg_image_data, 
+        bg_image_data = Image.open(bg_path)
+        bg_image = ctk.CTkImage(light_image=bg_image_data,
+                                dark_image=bg_image_data,
                                 size=(window_width, window_height))
     except FileNotFoundError:
         print(f"Error: Could not find background image at {bg_path}")
@@ -338,20 +472,47 @@ def show_text_loading_sequence():
     bg_label = None
     if bg_image:
         bg_label = ctk.CTkLabel(
-            splash, 
-            image=bg_image, 
-            text="Starting VeloStrap...", 
+            splash,
+            image=bg_image,
+            text="Starting VeloStrap...",
             font=("Segoe UI", 32, "bold"),
             text_color="#FFFFFF",
             compound="center"
         )
-        bg_label.place(x=0, y=0, relwidth=1, relheight=1)
+        bg_label.place(x=0, y=0, relwidth=1, relheight=1) # pyright: ignore[reportUnknownMemberType]
 
     splash.update()
 
-    # Run the update check in a thread so the splash can animate
-    threading.Thread(target=run_update_check, daemon=True).start()
+    # --- Handler for update found (called from main thread) ---
+    def handle_update_found(splash_win): # pyright: ignore[reportUnusedFunction, reportUnknownParameterType, reportMissingParameterType]
+        """Cancels normal sequence, shows message, then exits."""
+        # Cancel any pending after() calls from the normal sequence
+        try:
+            for after_id in splash_win.tk.eval('after info').split(): # pyright: ignore[reportUnknownVariableType, reportUnknownMemberType]
+                splash_win.after_cancel(after_id) # pyright: ignore[reportUnknownMemberType]
+        except:
+            pass
 
+        if bg_label:
+            bg_label.configure(text="Update found! Exiting...") # pyright: ignore[reportUnknownMemberType]
+        splash_win.update() # pyright: ignore[reportUnknownMemberType]
+
+        def close_and_exit():
+            # Close splash
+            splash_win.withdraw() # pyright: ignore[reportUnknownMemberType]
+            try:
+                splash_win.quit() # pyright: ignore[reportUnknownMemberType]
+                splash_win.destroy() # pyright: ignore[reportUnknownMemberType]
+            except:
+                pass
+            # Open download page
+            webbrowser.open(f"https://newpythonx.itch.io/{APP_NAME.lower()}-npx")
+            # Exit the whole program
+            sys.exit()
+
+        splash_win.after(2000, close_and_exit) # pyright: ignore[reportUnknownMemberType]
+
+    # --- Normal loading sequence ---
     sequence = [
         ("VeloStrap - Checking for Updates..", 1000),
         ("Connecting to Github..", 800),
@@ -360,15 +521,15 @@ def show_text_loading_sequence():
         ("Completed Update-Checker", 500)
     ]
 
-    def update_text(idx=0):
+    def update_text(idx=0): # pyright: ignore[reportMissingParameterType]
         if idx < len(sequence):
             text, delay_ms = sequence[idx]
             if bg_label:
-                bg_label.configure(text=text)
+                bg_label.configure(text=text) # pyright: ignore[reportUnknownMemberType]
             splash.update()
             splash.after(delay_ms, update_text, idx + 1)
         else:
-            # All texts shown – close the splash after a brief pause
+            # Normal close
             splash.after(300, close_splash)
 
     def close_splash():
@@ -384,8 +545,14 @@ def show_text_loading_sequence():
         except:
             pass
 
+    # Start the update check in background
+    threading.Thread(target=lambda: run_update_check(), daemon=True).start() # pyright: ignore[reportCallIssue, reportUnknownLambdaType]
+
+    # Start the normal loading text sequence
     update_text()
-    splash.mainloop()   # starts the Tk event loop, runs until splash is destroyed
+
+    # Enter the Tk event loop – will exit when splash is destroyed
+    splash.mainloop() # pyright: ignore[reportUnknownMemberType]
     
 # ==========================================
 # UI COMPONENTS (CUSTOMTKINTER)
@@ -396,7 +563,7 @@ ctk.set_default_color_theme("blue")
 # ==========================================
 # MAIN APPLICATION CLASS
 # ==========================================
-class LauncherStyleUI(ctk.CTk):
+class UI(ctk.CTk):
     def __init__(self):
         super().__init__()
         self.configure(fg_color=self.get_window_bg_color())
@@ -3630,6 +3797,14 @@ class LauncherStyleUI(ctk.CTk):
 # Run Application
 # ==========================================
 if __name__ == "__main__":
-    show_text_loading_sequence()
-    app = LauncherStyleUI()
-    app.mainloop()
+    loading_seq()
+    run_update_check()
+    app = UI() # pyright: ignore[reportUndefinedVariable, reportUnknownVariableType]
+    
+    # Show EULA on top of app
+    if not agreement(app):  # pyright: ignore[reportUnknownArgumentType] # user declined
+        app.destroy() # pyright: ignore[reportUnknownMemberType]
+        sys.exit()
+    
+    agreement(ctk.CTk())
+    app.mainloop() # pyright: ignore[reportUnknownMemberType]
