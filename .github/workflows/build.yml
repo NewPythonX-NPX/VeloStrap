@@ -23,4 +23,4 @@ jobs:
         run: |
           curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
             -H "Content-Type: application/json" \
-            -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\nDownload the exe from the latest release.\"}"
+            -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\n# 📁 Download\nDownload the latest version from either the official Github(<https://github.com/NewPythonX-NPX/VeloStrap/releases> or itch.io(<https://newpythonx.itch.io/velostrap-npx> (P.S itch.io won't get snapshot releases)"}"
