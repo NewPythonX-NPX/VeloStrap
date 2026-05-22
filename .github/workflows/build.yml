@@ -21,13 +21,14 @@ jobs:
       
       - name: Send Release Discord
         run: |
-          curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
-            -H "Content-Type: application/json" \
-            -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\n# 📁 Download\nDownload the latest version from either the official Github(<https://github.com/NewPythonX-NPX/VeloStrap/releases> or itch.io(<https://newpythonx.itch.io/velostrap-npx> (P.S itch.io won't get snapshot releases)"}"
+          curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" `
+            -H "Content-Type: application/json" `
+            -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\n# 📁 Download\nDownload the latest version from either the official Github(<https://github.com/NewPythonX-NPX/VeloStrap/releases> or itch.io(<https://newpythonx.itch.io/velostrap-npx> (P.S itch.io won't get snapshot releases)\"}"
+        shell: powershell
       
       - name: Create ZIP
         run: |
-          powershell Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+          powershell Compress-Archive -Path VeloStrap.exe -DestinationPath VeloStrap_${{ github.ref_name }}.zip
           
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
@@ -35,12 +36,12 @@ jobs:
           files: VeloStrap_${{ github.ref_name }}.zip
 
       - name: Download Butler
-  run: |
-    curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
-    Expand-Archive butler.zip -DestinationPath .
-    
-- name: Push to Itch.io
-  run: |
-    ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
-  env:
-    BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+        run: |
+          curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
+          Expand-Archive butler.zip -DestinationPath .
+        
+      - name: Push to Itch.io
+        run: |
+          ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
