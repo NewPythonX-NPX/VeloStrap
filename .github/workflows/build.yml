@@ -1,4 +1,4 @@
-name: Compile VeloStrap
+name: Compile VeloStrap via PyInstaller
 
 on:
   push:
@@ -25,7 +25,7 @@ jobs:
             -H "Content-Type: application/json" \
             -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\n# 📁 Download\nDownload the latest version from either the official Github(<https://github.com/NewPythonX-NPX/VeloStrap/releases> or itch.io(<https://newpythonx.itch.io/velostrap-npx> (P.S itch.io won't get snapshot releases)"}"
       
-        - name: Create ZIP Archive
+      - name: Create ZIP
         run: |
           powershell Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
           
