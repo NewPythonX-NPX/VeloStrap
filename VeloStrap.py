@@ -39,23 +39,14 @@ from tkinter import messagebox, filedialog
 # DO NOT CHANGE
 APP_VERSION = "0.2.0"
 
-SNAPSHOT_VERSION = "snapshot-1"
+SNAPSHOT_VERSION = "snapshot-1" # Snapshot version 0 if a stable release.
 
 # DO NOT CHANGE
 DEBUG_TEST = False  
 # Set to True to skip update check and show debug info. 
 
 APP_IDS = [
-    "YEPPIE_VELOSTRAPISADDINGSSNAPHSOTSSSNOWW-NOWWECANPALYEARLY*in_a_deepvoice*",
-    "hmm_revampYAYYYWEREVAMPEDABIT",
-    "ERMWEFINNALYREMOVEDBLOAT_ihaterobloxallowlist",
-    "YOTHEBIGGESTUPDATEYETISFFASTFLAGEDI--TAR",
-    "Man_Idk_IHAVEDACUSTUMID_S",
-    "OMG_DA_AUTODOWNLOADISDA_ASIAN",
-    "UNREBRANDED_THE_BANANASTRAP",
-    "HELO_DISCORDRPC_HASBEENADDEDGUYS_smallupdatethough_STILLGUDD!",
-    "YO_PROFILESFEATUREFINNALYCAMEOUT_IVEBEENHYPED",
-    "EASTERTIME_AND_SUMMERJUICETIME",
+    "IDSHERE_NOTTRYINGTOLEAKSOYEAH",
     "VeloStrapIsNew_26thMarch"
 ]
 
