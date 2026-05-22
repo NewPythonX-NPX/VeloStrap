@@ -40,7 +40,7 @@ jobs:
           curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
           Expand-Archive butler.zip -DestinationPath .
         
-      - name: Push to Itch.io
+      - name: Deploy to Itch
         run: |
           ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
         env:
