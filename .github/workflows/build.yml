@@ -1,0 +1,27 @@
+name: Build VeloStrap
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.14'
+      
+      - run: pip install pyinstaller
+      
+      - run: pyinstaller --onefile --clean --distpath . VeloStrap.py
+      
+      - name: Notify Discord
+        run: |
+          curl -X POST "https://discord.com/api/v10/channels/1486724273920806962/messages" \
+            -H "Authorization: Bot ${{ secrets.DISCORD_BOT_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\nDownload the .exe from the latest release.\"}"
