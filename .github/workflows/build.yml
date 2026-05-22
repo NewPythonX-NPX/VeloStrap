@@ -28,7 +28,7 @@ jobs:
       
       - name: Create ZIP
         run: |
-          powershell Compress-Archive -Path VeloStrap.exe -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+          powershell Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
           
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
