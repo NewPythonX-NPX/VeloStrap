@@ -24,3 +24,12 @@ jobs:
           curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" \
             -H "Content-Type: application/json" \
             -d "{\"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\n# 📁 Download\nDownload the latest version from either the official Github(<https://github.com/NewPythonX-NPX/VeloStrap/releases> or itch.io(<https://newpythonx.itch.io/velostrap-npx> (P.S itch.io won't get snapshot releases)"}"
+      
+      - name: Create ZIP Archive
+        run: |
+          powershell Compress-Archive -Path VeloStrap.exe -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+          
+      - name: Upload Release Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: VeloStrap_${{ github.ref_name }}.zip
