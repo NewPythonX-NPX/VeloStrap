@@ -42,9 +42,9 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 * Frontend Programmar (no backend, and text as frontend)
 
 **AI Assistants**
+* **ChatGPT (Codex)** - Lead Programmar
 * **DeepSeek** - New Programmar
 * **Gemini (Pro)** - Deprecated Use
-* **ChatGPT (Codex)** - Deprecated Use
 
 ---
 
@@ -57,8 +57,8 @@ double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
 
-A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: config.json, profile_saves.json.
-Though this means you will lose your saved fastflags/mods or custom fastflags.
+A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: config.json, profile_saves.json, disclaimer.json.
+Though this means you will lose your saved data.
 
 ---
 
@@ -70,4 +70,4 @@ Though this means you will lose your saved fastflags/mods or custom fastflags.
 * 💬 [Join the VeloStrap Discord](https://discord.gg/CxGzGWmyNz)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 * 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)ch.io/velo-strap)
