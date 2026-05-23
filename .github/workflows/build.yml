@@ -1,4 +1,4 @@
-name: Compile VeloStrap via PyInstaller
+name: Compile VeloStrap via Nuitka
 
 on:
   push:
@@ -18,33 +18,48 @@ jobs:
         with:
           python-version: '3.13'
 
-      - run: pip install pyinstaller
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install nuitka
+          if (Test-Path requirements.txt) {
+            pip install -r requirements.txt
+          } else {
+            # Install common modules that may be missing
+            pip install requests
+          }
+        shell: powershell
 
-      - run: pyinstaller --onefile --clean --noconsole --distpath . VeloStrap.py
+      - name: Build with Nuitka
+        run: |
+          nuitka --standalone --windows-console-mode=disable --output-dir=build --include-package=requests --include-package=customtkinter --enable-plugin=tk-inter --include-data-dir=assets=assets VeloStrap.py
 
       - name: Create ZIP
         run: |
-          powershell Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+          powershell Compress-Archive -Path VeloStrap.dist\* -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+        # Adjust path if your entry script is not VeloStrap.py (the .dist folder name will match).
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
         with:
           files: VeloStrap_${{ github.ref_name }}.zip
 
-      # Notify after release is actually created and asset uploaded
-      - name: Send Release Discord
+      - name: Send Discord Notification
         run: |
-          curl -X POST "${{ secrets.DISCORD_WEBHOOK_URL }}" `
-            -H "Content-Type: application/json" `
-            -d "{ \"content\": \"🚀 **New VeloStrap Release (Stable or not) Ready!**\nVersion: ${{ github.ref_name }}\n# 📁 Download\nDownload the latest version from either the official Github(https://github.com/NewPythonX-NPX/VeloStrap/releases) or itch.io(https://newpythonx.itch.io/velostrap-npx) (P.S itch.io won't get snapshot releases)\" }"
-        shell: powershell
+          $body = @{
+            content = "🚀 **New VeloStrap Release (Stable or not) Ready!**`nVersion: ${{ github.ref_name }}`n# 📁 Download`nDownload the latest version from either the official Github(https://github.com/NewPythonX-NPX/VeloStrap/releases) or itch.io(https://newpythonx.itch.io/velostrap-npx) (P.S itch.io won't get snapshot releases)"
+          } | ConvertTo-Json -Depth 1
+          Invoke-RestMethod -Uri $env:DISCORD_WEBHOOK_URL -Method Post -Body $body -ContentType "application/json"
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
 
       - name: Download Butler
         run: |
           curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
           Expand-Archive butler.zip -DestinationPath .
 
-      # Push the raw executable to itch.io for a cleaner, direct download
       - name: Deploy to Itch
         run: |
-         ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
+          ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
