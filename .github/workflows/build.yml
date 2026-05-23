@@ -13,11 +13,11 @@ jobs:
 
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.13'   # Fixed: 3.14 not available yet
+          python-version: '3.13'
 
       - run: pip install pyinstaller
 
-      - run: pyinstaller --onefile --clean --distpath . VeloStrap.py
+      - run: pyinstaller --onefile --clean --noconsole --add-data "assets;assets" --distpath . VeloStrap.py
 
       - name: Create ZIP
         run: |
