@@ -39,20 +39,7 @@ jobs:
           Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
         shell: powershell
 
-      - name: Upload Release Asset
+      - name: Upload Zip To Github
         uses: softprops/action-gh-release@v1
         with:
           files: VeloStrap_${{ github.ref_name }}.zip
-
-      - name: Download Butler
-        run: |
-          curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
-          Expand-Archive butler.zip -DestinationPath .
-        shell: powershell
-
-      - name: Deploy to Itch
-        run: |
-          ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
-        env:
-          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
-        shell: powershell
