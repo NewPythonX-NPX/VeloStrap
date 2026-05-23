@@ -33,10 +33,12 @@ jobs:
       - name: Build with Nuitka
         run: |
           nuitka --standalone --windows-console-mode=disable --output-dir=build --include-package=requests --include-package=customtkinter --enable-plugin=tk-inter --include-data-dir=assets=assets VeloStrap.py
+        shell: powershell
 
-     - name: Create ZIP
-  run: |
-    powershell Compress-Archive -Path build\VeloStrap.dist\* -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+      - name: Create ZIP
+        run: |
+          Compress-Archive -Path build\VeloStrap.dist\* -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+        shell: powershell
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
@@ -51,14 +53,17 @@ jobs:
           Invoke-RestMethod -Uri $env:DISCORD_WEBHOOK_URL -Method Post -Body $body -ContentType "application/json"
         env:
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        shell: powershell
 
       - name: Download Butler
         run: |
           curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
           Expand-Archive butler.zip -DestinationPath .
+        shell: powershell
 
       - name: Deploy to Itch
         run: |
           ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
         env:
           BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+        shell: powershell
