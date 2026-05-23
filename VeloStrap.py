@@ -39,23 +39,31 @@ from tkinter import messagebox, filedialog
 # DO NOT CHANGE
 APP_VERSION = "0.2.0"
 
-SNAPSHOT_VERSION = "snapshot-1" # Snapshot version 0 if a stable release.
+SNAPSHOT_BUILD = "snapshot-2"
 
 # DO NOT CHANGE
 DEBUG_TEST = False  
 # Set to True to skip update check and show debug info. 
 
 APP_IDS = [
-    "IDSHERE_NOTTRYINGTOLEAKSOYEAH",
+    "CODEX_FIXED_PROFILE_PROBLEM_OMGGGGGGGGGGGGGGGGGGGGGGGGGG_FINNALYITSBEENBROKENEVERSINCE_THE_REMOVEDBLOATUPDATE",
+    "YEPPIE_VELOSTRAPISADDINGSSNAPHSOTSSSNOWW-NOWWECANPALYEARLY*in_a_deepvoice*",
+    "hmm_revampYAYYYWEREVAMPEDABIT",
+    "ERMWEFINNALYREMOVEDBLOAT_ihaterobloxallowlist",
+    "YOTHEBIGGESTUPDATEYETISFFASTFLAGEDI--TAR",
+    "Man_Idk_IHAVEDACUSTUMID_S",
+    "OMG_DA_AUTODOWNLOADISDA_ASIAN",
+    "UNREBRANDED_THE_BANANASTRAP",
+    "HELO_DISCORDRPC_HASBEENADDEDGUYS_smallupdatethough_STILLGUDD!",
+    "YO_PROFILESFEATUREFINNALYCAMEOUT_IVEBEENHYPED",
     "VeloStrapIsNew_26thMarch"
 ]
 
 APP_NAME = "VeloStrap" 
-VersionDetectionURL = "https://raw.githubusercontent.com/NewPythonX-NPX/version-detection/refs/heads/main/ExtraAppIDsForVeloStrap?v1"
-
+VersionDetectionURL = "https://raw.githubusercontent.com/NewPythonX-NPX/version-detection/refs/heads/main/ExtraAppIDsForVeloStrap"
 # OTHER IMPORTANT STUFF
 
-DISCORD_CLIENT_ID = "1507646372210544710"
+DISCORD_CLIENT_ID = "Scraped"
 ROBLOX_MUTEX_NAME = "ROBLOX_singletonEvent"
 ROBLOX_LIVE_VERSION_API = "https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/live"
 DEFAULT_RENDERING = "DX11 (Standard)"
@@ -117,7 +125,7 @@ APPEARANCE_OPTIONS = ["Device", "Light", "Dark", "Midnight"]
 CURSOR_KEYBOARD_MOUSE_FILES = {"ArrowCursor.png", "ArrowFarCursor.png"}
 OFFLINE_MODE = False
 SHIFTLOCK_CURSOR_FILE = "MouseLockedCursor.png"
-MOUSE_CURSOR_PRESET_OPTIONS = ["Default", "Angular (2013)", "Cartoony (2006)"]
+MOUSE_CURSOR_PRESET_OPTIONS = ["Default", "Angular (2016)", "Cartoony (2006)"]
 ROBLOX_UI_FONT_TARGET_FILES = (
     "BuilderSans-Regular.otf",
     "BuilderSans-Medium.otf",
@@ -126,56 +134,89 @@ ROBLOX_UI_FONT_TARGET_FILES = (
 )
 SUPPORTED_CUSTOM_FONT_EXTENSIONS = {".otf", ".ttf"}
 
-DEFAULT_PROFILE_PRESETS = {
+DEFAULT_PROFILE_PRESETS = { # pyright: ignore[reportUnknownVariableType]
     "Potato Mode": {
         "Type": "PRESET-PROFILE",
         "Rendering Mode": "DX11 (Standard)",
-        "Texture Quality": "Low",
+        "Alt Enter Fullscreen": False,
+        "Texture Quality Mode": "Low",
+        "MSAA Mode": "Automatic",
+        "Mesh Quality Level": 0,
+        "Graphics Quality Override": 1,
         "discord_rpc": False,
         "MultiInstance": False,
         "Mouse Cursor Preset": "Default",
         "Emulate Old Character Sounds": False,
-        "Use Old Avatar Editor Background": False
+        "Use Old Avatar Editor Background": False,
+        "Custom Roblox Font Source": "",
+        "FastFlags": {}
     },
     "Extra Mode": {
         "Type": "PRESET-PROFILE",
-        "Rendering Mode": "DX11 (Standard)",
-        "Texture Quality": "Normal",
+        "Rendering Mode": "Vulkan (Best for Modern FPS)",
+        "Alt Enter Fullscreen": True,
+        "Texture Quality Mode": "Low",
+        "MSAA Mode": "2x",
+        "Mesh Quality Level": 1,
+        "Graphics Quality Override": 2,
         "discord_rpc": True,
         "MultiInstance": True,
         "Mouse Cursor Preset": "Default",
         "Emulate Old Character Sounds": False,
-        "Use Old Avatar Editor Background": False
+        "Use Old Avatar Editor Background": False,
+        "Custom Roblox Font Source": "",
+        "FastFlags": {}
     },
     "Cinematic Mode": {
         "Type": "PRESET-PROFILE",
-        "Rendering Mode": "DX11 (Standard)",
-        "discord_rpc": True,
-        "MultiInstance": True,
+        "Rendering Mode": "Vulkan (Best for Modern FPS)",
+        "Alt Enter Fullscreen": True,
+        "Texture Quality Mode": "High",
+        "MSAA Mode": "4x",
+        "Mesh Quality Level": 4,
+        "Graphics Quality Override": 10,
+        "discord_rpc": False,
+        "MultiInstance": False,
         "Mouse Cursor Preset": "Default",
         "Emulate Old Character Sounds": False,
-        "Use Old Avatar Editor Background": False
+        "Use Old Avatar Editor Background": False,
+        "Custom Roblox Font Source": "",
+        "FastFlags": {}
     },
     "Mac-Bootcamp-Windows": {
         "Type": "PRESET-PROFILE",
         "Rendering Mode": "OpenGL (Recommended for Older Hardware)",
+        "Alt Enter Fullscreen": False,
+        "Texture Quality Mode": "Low",
+        "MSAA Mode": "Automatic",
+        "Mesh Quality Level": 1,
+        "Graphics Quality Override": 0,
         "discord_rpc": False,
         "MultiInstance": False,
         "Mouse Cursor Preset": "Default",
         "Emulate Old Character Sounds": False,
-        "Use Old Avatar Editor Background": False
+        "Use Old Avatar Editor Background": False,
+        "Custom Roblox Font Source": "",
+        "FastFlags": {}
     },
-    "2016 Roblox": {
+    "Old Roblox (2016)": {
         "Type": "PRESET-PROFILE",
         "Rendering Mode": "DX11 (Standard)",
+        "Alt Enter Fullscreen": False,
+        "Texture Quality Mode": "Automatic",
+        "MSAA Mode": "Automatic",
+        "Mesh Quality Level": 2,
+        "Graphics Quality Override": 0,
         "discord_rpc": False,
         "MultiInstance": False,
-        "Mouse Cursor Preset": "Angular (2013)",
+        "Mouse Cursor Preset": "Angular (2016)",
         "Emulate Old Character Sounds": True,
-        "Use Old Avatar Editor Background": True
+        "Use Old Avatar Editor Background": True,
+        "Custom Roblox Font Source": "",
+        "FastFlags": {}
     },
     "----------------------------------------------------------------------": {
-        "Type": "LINE"
+        "Type": "Line",
     }
 }
 
@@ -245,7 +286,7 @@ def get_app_directory():
 def log_error(error_message: Any) -> None:
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     log_file = f"error_log_{timestamp}.txt"
-    error_folder = "Error Log"
+    error_folder = os.path.join(get_app_directory(), "Error Log")
     
     if not os.path.exists(error_folder):
         os.makedirs(error_folder)
@@ -273,7 +314,7 @@ def run_update_check():
         print(f">>> DEBUGGING: {APP_NAME} <<<")
         print(f">>> App Version: {APP_VERSION} <<<")
         print(f">>> Debug Mode: {DEBUG_TEST} <<<")
-        print(f">>> Snapshot version: {SNAPSHOT_VERSION} <<<")
+        print(f">>> Snapshot version: {SNAPSHOT_BUILD} <<<")
         print("------------------------------------------------")
         return
         
@@ -284,11 +325,33 @@ def run_update_check():
         return
 
     try:
-        cache_buster = f"{VersionDetectionURL}&t={int(time.time())}&nocache={random.randint(1, 9999)}"
+        separator = "&" if "?" in VersionDetectionURL else "?"
+        cache_buster = f"{VersionDetectionURL}{separator}t={int(time.time())}&nocache={random.randint(1, 9999)}"
         response = requests.get(cache_buster, timeout=10)
         
         if response.status_code == 200:
-            data = response.json()
+            try:
+                data = response.json()
+            except json.JSONDecodeError as e:
+                preview = response.text.strip().replace("\r", " ").replace("\n", " ")[:300]
+                print("- Update checker received invalid JSON. Skipping update check.")
+                log_error(
+                    "Update checker received invalid JSON from the version detection URL.\n"
+                    f"URL: {VersionDetectionURL}\n"
+                    f"JSON error: {e}\n"
+                    f"Response preview: {preview}"
+                )
+                return
+
+            if not isinstance(data, dict):
+                print("- Update checker response was not a JSON object. Skipping update check.")
+                log_error(
+                    "Update checker response was not a JSON object.\n"
+                    f"URL: {VersionDetectionURL}\n"
+                    f"Response type: {type(data).__name__}"
+                )
+                return
+
             latest_version = None
             
             for vid in APP_IDS:
@@ -304,12 +367,14 @@ def run_update_check():
                     break 
 
             if latest_version and latest_version != APP_VERSION:
-                print(f"Update Found! Local: {APP_VERSION} | Cloud: {latest_version}")
+                print(f"Update Found. Local: {APP_VERSION} | Cloud: {latest_version}")
                 webbrowser.open("https://newpythonx.itch.io/velostrap-npx")
                 pass
                 sys.exit()
             else:
-                print("Everything matches! Launching...")
+                print(f"Everything matches! Launching {APP_NAME}...")
+        else:
+            print(f"- Update checker returned {response.status_code}. Skipping update check.")
                 
     except Exception as e:
         print(f"Update Checker Failed: {e}")
@@ -581,6 +646,7 @@ class UI(ctk.CTk):
         self.custom_flags_count_label = None
         self.active_fastflags_signature = None
         self.custom_fastflags_signature = None
+        self.syncing_fastflag_controls = False
         
         # Rate Limiting
         self.action_timestamps = []
@@ -1145,14 +1211,42 @@ class UI(ctk.CTk):
         if self.npx_data["Rendering Mode"] not in RENDERING_OPTIONS:
             self.npx_data["Rendering Mode"] = DEFAULT_RENDERING
 
+    def normalize_profile_fastflags(self, raw_flags, parent=None, ask_for_suggestion=False):
+        if not isinstance(raw_flags, dict):
+            return {}
+
+        validated_flags, removed_messages = self.validate_fastflag_mapping(
+            raw_flags,
+            ask_for_suggestion=ask_for_suggestion,
+            parent=parent
+        )
+        for removed_message in removed_messages:
+            print(f"- Removed unsupported profile FastFlag: {removed_message}")
+
+        return dict(sorted(validated_flags.items(), key=lambda item: item[0].lower()))
+
     def normalize_profile_settings(self, settings):
         profile_settings = dict(settings)
         profile_settings["Rendering Mode"] = profile_settings.get("Rendering Mode", DEFAULT_RENDERING)
+        profile_settings["Alt Enter Fullscreen"] = bool(profile_settings.get("Alt Enter Fullscreen", False))
+        profile_settings["Texture Quality Mode"] = self.normalize_texture_quality_mode(
+            profile_settings.get("Texture Quality Mode", profile_settings.get("Texture Quality", DEFAULT_TEXTURE_QUALITY_MODE))
+        )
+        profile_settings["MSAA Mode"] = self.normalize_msaa_mode(profile_settings.get("MSAA Mode", DEFAULT_MSAA_MODE))
+        profile_settings["Mesh Quality Level"] = self.normalize_mesh_quality_level(
+            profile_settings.get("Mesh Quality Level", DEFAULT_MESH_QUALITY_LEVEL)
+        )
+        profile_settings["Graphics Quality Override"] = self.normalize_graphics_quality_override(
+            profile_settings.get("Graphics Quality Override", DEFAULT_GRAPHICS_QUALITY_OVERRIDE)
+        )
         profile_settings["discord_rpc"] = bool(profile_settings.get("discord_rpc", False))
         profile_settings["MultiInstance"] = bool(profile_settings.get("MultiInstance", profile_settings.get("Multi_Instance", False)))
         profile_settings["Mouse Cursor Preset"] = self.normalize_mouse_cursor_preset(profile_settings.get("Mouse Cursor Preset"))
         profile_settings["Emulate Old Character Sounds"] = bool(profile_settings.get("Emulate Old Character Sounds", False))
         profile_settings["Use Old Avatar Editor Background"] = bool(profile_settings.get("Use Old Avatar Editor Background", False))
+        font_source = profile_settings.get("Custom Roblox Font Source", "")
+        profile_settings["Custom Roblox Font Source"] = font_source.strip() if isinstance(font_source, str) else ""
+        profile_settings["FastFlags"] = self.normalize_profile_fastflags(profile_settings.get("FastFlags", {}))
 
         for stale_key in DEPRECATED_FASTFLAG_SETTING_KEYS:
             profile_settings.pop(stale_key, None)
@@ -1291,7 +1385,7 @@ class UI(ctk.CTk):
             existing_settings = self.profiles_data.get(profile_name, {})
             merged_settings = dict(default_settings)
 
-            if isinstance(existing_settings, dict):
+            if isinstance(existing_settings, dict) and not self.is_preset_profile(default_settings) and not self.is_separator_profile(default_settings):
                 for key, value in existing_settings.items():
                     if key != "Type":
                         merged_settings[key] = value
@@ -1907,7 +2001,7 @@ class UI(ctk.CTk):
 
     def get_mouse_cursor_preset_root(self, preset_name):
         preset_folder_map = {
-            "Angular (2013)": "Angular_2013",
+            "Angular (2016)": "Angular_2016",
             "2006 (Cartoony)": "Cartoony_2006"
         }
         folder_name = preset_folder_map.get(preset_name)
@@ -2174,6 +2268,49 @@ class UI(ctk.CTk):
 
         if hasattr(self, "custom_roblox_font_reset_btn"):
             self.custom_roblox_font_reset_btn.configure(state="normal" if file_count > 0 else "disabled")
+
+    def apply_custom_roblox_font_source(self, source_path, parent=None):
+        cleaned_source = source_path.strip() if isinstance(source_path, str) else ""
+        font_root = self.get_custom_roblox_font_mod_root()
+
+        if not cleaned_source:
+            os.makedirs(font_root, exist_ok=True)
+            for file_name in ROBLOX_UI_FONT_TARGET_FILES:
+                target_file = os.path.join(font_root, file_name)
+                if os.path.exists(target_file):
+                    os.remove(target_file)
+
+            self.npx_data["Custom Roblox Font Source"] = ""
+            installed_folder = self.get_current_installed_roblox_folder()
+            if installed_folder:
+                self.restore_default_roblox_ui_font(installed_folder)
+            self.refresh_custom_roblox_font_status()
+            return True
+
+        source_path = os.path.abspath(cleaned_source)
+        extension = os.path.splitext(source_path)[1].lower()
+        if extension not in SUPPORTED_CUSTOM_FONT_EXTENSIONS:
+            messagebox.showerror("Unsupported Font", "Please choose a .otf or .ttf font file.", parent=parent or self)
+            return False
+
+        if not os.path.exists(source_path):
+            messagebox.showerror("Roblox Font", f"Could not find this profile font:\n{source_path}", parent=parent or self)
+            return False
+
+        installed_folder = self.get_current_installed_roblox_folder()
+        if installed_folder:
+            self.seed_default_ui_font_backup(installed_folder)
+
+        os.makedirs(font_root, exist_ok=True)
+        for file_name in ROBLOX_UI_FONT_TARGET_FILES:
+            target_file = os.path.join(font_root, file_name)
+            if os.path.abspath(target_file) == source_path:
+                continue
+            shutil.copy2(source_path, target_file)
+
+        self.npx_data["Custom Roblox Font Source"] = source_path
+        self.refresh_custom_roblox_font_status()
+        return True
 
     def import_custom_roblox_font(self):
         selected_file = filedialog.askopenfilename(
@@ -2729,6 +2866,9 @@ class UI(ctk.CTk):
         self.refresh_fastflag_views(use_current_ui=True, force=True)
 
     def handle_fastflag_control_change(self, _=None):
+        if getattr(self, "syncing_fastflag_controls", False):
+            self.refresh_fastflag_views(use_current_ui=True)
+            return
         if not self.check_rate_limit(): return
         self.refresh_fastflag_views(use_current_ui=True)
 
@@ -3056,9 +3196,9 @@ class UI(ctk.CTk):
                                         command=lambda n=p_name: self.delete_profile(n))
                 del_btn.grid(row=0, column=3, padx=(5, 10), pady=10)
 
-            edit_btn = ctk.CTkButton(card, text="Edit", width=60, **self.get_neutral_button_style(),
-                                     command=lambda n=p_name: self.open_profile_editor(n))
-            edit_btn.grid(row=0, column=2, padx=5, pady=10)
+                edit_btn = ctk.CTkButton(card, text="Edit", width=60, **self.get_neutral_button_style(),
+                                         command=lambda n=p_name: self.open_profile_editor(n))
+                edit_btn.grid(row=0, column=2, padx=5, pady=10)
 
             use_btn = ctk.CTkButton(card, text="Use", width=90, 
                                     command=lambda s=p_settings: self.use_profile(s))
@@ -3072,48 +3212,45 @@ class UI(ctk.CTk):
         self.npx_data.update(
             {
                 "Rendering Mode": normalized_settings.get("Rendering Mode", DEFAULT_RENDERING),
+                "Alt Enter Fullscreen": normalized_settings.get("Alt Enter Fullscreen", False),
+                "Texture Quality Mode": normalized_settings.get("Texture Quality Mode", DEFAULT_TEXTURE_QUALITY_MODE),
+                "MSAA Mode": normalized_settings.get("MSAA Mode", DEFAULT_MSAA_MODE),
+                "Mesh Quality Level": normalized_settings.get("Mesh Quality Level", DEFAULT_MESH_QUALITY_LEVEL),
+                "Graphics Quality Override": normalized_settings.get("Graphics Quality Override", DEFAULT_GRAPHICS_QUALITY_OVERRIDE),
                 "discord_rpc": normalized_settings.get("discord_rpc", False),
                 "Multi_Instance": normalized_settings.get("MultiInstance", False),
                 "Mouse Cursor Preset": normalized_settings.get("Mouse Cursor Preset", "Default"),
                 "Emulate Old Character Sounds": normalized_settings.get("Emulate Old Character Sounds", False),
-                "Use Old Avatar Editor Background": normalized_settings.get("Use Old Avatar Editor Background", False)
+                "Use Old Avatar Editor Background": normalized_settings.get("Use Old Avatar Editor Background", False),
+                "Custom Roblox Font Source": normalized_settings.get("Custom Roblox Font Source", "")
             }
         )
 
         for stale_key in DEPRECATED_FASTFLAG_SETTING_KEYS:
             self.npx_data.pop(stale_key, None)
 
-        self.ren_var.set(self.npx_data.get("Rendering Mode", DEFAULT_RENDERING))
-        self.mouse_cursor_preset_var.set(self.npx_data.get("Mouse Cursor Preset", "Default"))
-
-        multi_status = self.npx_data.get("Multi_Instance", False)
-        if multi_status: 
-            self.multi_switch.select()
-        else: 
-            self.multi_switch.deselect()
+        self.syncing_fastflag_controls = True
+        try:
+            self.sync_launcher_controls_to_data()
+        finally:
+            self.syncing_fastflag_controls = False
         
         rpc_status = self.npx_data.get("discord_rpc", False)
         if rpc_status: 
-            self.discord_switch.select()
             self.start_rpc()
         else: 
-            self.discord_switch.deselect()
             self.stop_rpc()
 
-        if self.npx_data.get("Emulate Old Character Sounds", False):
-            self.old_character_sounds_switch.select()
-        else:
-            self.old_character_sounds_switch.deselect()
-
-        if self.npx_data.get("Use Old Avatar Editor Background", False):
-            self.old_avatar_background_switch.select()
-        else:
-            self.old_avatar_background_switch.deselect()
+        font_applied = self.apply_custom_roblox_font_source(
+            self.npx_data.get("Custom Roblox Font Source", ""),
+            parent=self
+        )
         
         self.save_launcher_data()
         self.refresh_fastflag_views(use_current_ui=True, force=True)
         self.apply_mod_settings_if_available()
-        messagebox.showinfo("Profile Applied", "Profile settings have been applied successfully.")
+        if font_applied:
+            messagebox.showinfo("Profile Applied", "Profile settings have been applied successfully.")
 
     def delete_profile(self, profile_name):
         profile_settings = self.profiles_data.get(profile_name, {})
@@ -3136,16 +3273,27 @@ class UI(ctk.CTk):
 
         editor = ctk.CTkToplevel(self)
         editor.title("Edit Profile" if edit_name else "Add Profile")
-        editor.geometry("480x620")
+        editor.geometry("560x760")
         editor.grab_set()
         editor.resizable(False, False)
         editor.configure(fg_color=self.get_window_bg_color())
 
-        p_data = self.normalize_profile_settings(self.profiles_data.get(edit_name, {
-            "Rendering Mode": DEFAULT_RENDERING,
-            "discord_rpc": False,
-            "MultiInstance": False
-        }))
+        current_profile_defaults = {
+            "Rendering Mode": self.npx_data.get("Rendering Mode", DEFAULT_RENDERING),
+            "Alt Enter Fullscreen": self.npx_data.get("Alt Enter Fullscreen", False),
+            "Texture Quality Mode": self.npx_data.get("Texture Quality Mode", DEFAULT_TEXTURE_QUALITY_MODE),
+            "MSAA Mode": self.npx_data.get("MSAA Mode", DEFAULT_MSAA_MODE),
+            "Mesh Quality Level": self.npx_data.get("Mesh Quality Level", DEFAULT_MESH_QUALITY_LEVEL),
+            "Graphics Quality Override": self.npx_data.get("Graphics Quality Override", DEFAULT_GRAPHICS_QUALITY_OVERRIDE),
+            "discord_rpc": self.npx_data.get("discord_rpc", False),
+            "MultiInstance": self.npx_data.get("Multi_Instance", False),
+            "Mouse Cursor Preset": self.npx_data.get("Mouse Cursor Preset", "Default"),
+            "Emulate Old Character Sounds": self.npx_data.get("Emulate Old Character Sounds", False),
+            "Use Old Avatar Editor Background": self.npx_data.get("Use Old Avatar Editor Background", False),
+            "Custom Roblox Font Source": self.npx_data.get("Custom Roblox Font Source", ""),
+            "FastFlags": {}
+        }
+        p_data = self.normalize_profile_settings(self.profiles_data.get(edit_name, current_profile_defaults))
 
         ctk.CTkLabel(editor, text="Profile Name:", text_color=self.get_primary_text_color()).pack(pady=(15, 2))
         name_entry = ctk.CTkEntry(editor, width=320)
@@ -3154,12 +3302,11 @@ class UI(ctk.CTk):
             name_entry.insert(0, edit_name)
             if self.is_preset_profile(existing_profile):
                 name_entry.configure(state="disabled")
-            
-        rpc_val = ctk.BooleanVar(value=p_data.get("discord_rpc", False))
-        ctk.CTkSwitch(editor, text="Discord Rich Presence", variable=rpc_val).pack(pady=(10, 5))
-            
+
         scroll_area = ctk.CTkScrollableFrame(editor, fg_color=self.get_window_bg_color())
         scroll_area.pack(fill="both", expand=True, padx=10, pady=10)
+
+        self.create_labeled_separator(scroll_area, "FastFlags")
 
         ctk.CTkLabel(scroll_area, text="Rendering Mode:", text_color=self.get_primary_text_color()).pack(pady=(5, 2))
         ren_val = ctk.StringVar(value=p_data.get("Rendering Mode", DEFAULT_RENDERING))
@@ -3170,11 +3317,89 @@ class UI(ctk.CTk):
             width=250,
             **self.get_option_menu_style()
         ).pack(pady=5)
-        
-        multi_val = ctk.BooleanVar(value=p_data.get("MultiInstance", False))
-        ctk.CTkSwitch(scroll_area, text="Multi-Instance", variable=multi_val).pack(pady=10)
 
-        ctk.CTkLabel(scroll_area, text="Mouse Cursor:", text_color=self.get_primary_text_color()).pack(pady=(10, 2))
+        alt_enter_val = ctk.BooleanVar(value=p_data.get("Alt Enter Fullscreen", False))
+        ctk.CTkSwitch(
+            scroll_area,
+            text="Enable true Alt+Enter fullscreen",
+            variable=alt_enter_val
+        ).pack(pady=10)
+
+        ctk.CTkLabel(scroll_area, text="Texture Quality Override:", text_color=self.get_primary_text_color()).pack(pady=(8, 2))
+        texture_quality_val = ctk.StringVar(value=p_data.get("Texture Quality Mode", DEFAULT_TEXTURE_QUALITY_MODE))
+        ctk.CTkOptionMenu(
+            scroll_area,
+            variable=texture_quality_val,
+            values=TEXTURE_QUALITY_OPTIONS,
+            width=250,
+            **self.get_option_menu_style()
+        ).pack(pady=5)
+
+        ctk.CTkLabel(scroll_area, text="Anti-Aliasing:", text_color=self.get_primary_text_color()).pack(pady=(8, 2))
+        msaa_val = ctk.StringVar(value=p_data.get("MSAA Mode", DEFAULT_MSAA_MODE))
+        ctk.CTkOptionMenu(
+            scroll_area,
+            variable=msaa_val,
+            values=MSAA_OPTIONS,
+            width=250,
+            **self.get_option_menu_style()
+        ).pack(pady=5)
+
+        profile_mesh_value_label = ctk.CTkLabel(
+            scroll_area,
+            text="Mesh Quality:",
+            text_color=self.get_primary_text_color()
+        )
+        profile_mesh_value_label.pack(pady=(10, 2))
+
+        profile_mesh_slider = ctk.CTkSlider(
+            scroll_area,
+            from_=0,
+            to=len(MESH_QUALITY_LABELS) - 1,
+            number_of_steps=len(MESH_QUALITY_LABELS) - 1,
+            width=280
+        )
+        profile_mesh_slider.pack(pady=(0, 6))
+
+        def refresh_profile_mesh_label(value=None):
+            mesh_level = self.normalize_mesh_quality_level(profile_mesh_slider.get() if value is None else value)
+            mesh_label = MESH_QUALITY_LABELS[mesh_level]
+            if mesh_level == DEFAULT_MESH_QUALITY_LEVEL:
+                mesh_label += " (Roblox default)"
+            profile_mesh_value_label.configure(text=f"Mesh Quality: {mesh_label}")
+
+        profile_mesh_slider.configure(command=refresh_profile_mesh_label)
+        profile_mesh_slider.set(p_data.get("Mesh Quality Level", DEFAULT_MESH_QUALITY_LEVEL))
+        refresh_profile_mesh_label()
+
+        profile_graphics_value_label = ctk.CTkLabel(
+            scroll_area,
+            text="Graphics Quality Override:",
+            text_color=self.get_primary_text_color()
+        )
+        profile_graphics_value_label.pack(pady=(10, 2))
+
+        profile_graphics_slider = ctk.CTkSlider(
+            scroll_area,
+            from_=0,
+            to=10,
+            number_of_steps=10,
+            width=280
+        )
+        profile_graphics_slider.pack(pady=(0, 6))
+
+        def refresh_profile_graphics_label(value=None):
+            quality_level = self.normalize_graphics_quality_override(profile_graphics_slider.get() if value is None else value)
+            quality_label = "Automatic" if quality_level == 0 else f"Forced Level {quality_level}"
+            profile_graphics_value_label.configure(text=f"Graphics Quality Override: {quality_label}")
+
+        profile_graphics_slider.configure(command=refresh_profile_graphics_label)
+        profile_graphics_slider.set(p_data.get("Graphics Quality Override", DEFAULT_GRAPHICS_QUALITY_OVERRIDE))
+        refresh_profile_graphics_label()
+
+        self.create_labeled_separator(scroll_area, "Mods")
+
+        ctk.CTkLabel(scroll_area, text="Mouse Cursor:", text_color=self.get_primary_text_color()).pack(pady=(5, 2))
         cursor_preset_val = ctk.StringVar(value=p_data.get("Mouse Cursor Preset", "Default"))
         ctk.CTkOptionMenu(
             scroll_area,
@@ -3184,25 +3409,87 @@ class UI(ctk.CTk):
             **self.get_option_menu_style()
         ).pack(pady=5)
 
-        self.profile_old_character_sounds_switch = ctk.CTkSwitch(
+        old_character_sounds_val = ctk.BooleanVar(value=p_data.get("Emulate Old Character Sounds", False))
+        ctk.CTkSwitch(
             scroll_area,
-            text="Emulate old character sounds"
-        )
-        self.profile_old_character_sounds_switch.pack(pady=10)
-        if p_data.get("Emulate Old Character Sounds", False):
-            self.profile_old_character_sounds_switch.select()
-        else:
-            self.profile_old_character_sounds_switch.deselect()
+            text="Emulate old character sounds",
+            variable=old_character_sounds_val
+        ).pack(pady=10)
 
-        self.profile_old_avatar_background_switch = ctk.CTkSwitch(
+        old_avatar_background_val = ctk.BooleanVar(value=p_data.get("Use Old Avatar Editor Background", False))
+        ctk.CTkSwitch(
             scroll_area,
-            text="Use old avatar editor background"
+            text="Use old avatar editor background",
+            variable=old_avatar_background_val
+        ).pack(pady=10)
+
+        rpc_val = ctk.BooleanVar(value=p_data.get("discord_rpc", False))
+        ctk.CTkSwitch(scroll_area, text="Discord Rich Presence", variable=rpc_val).pack(pady=10)
+
+        multi_val = ctk.BooleanVar(value=p_data.get("MultiInstance", False))
+        ctk.CTkSwitch(scroll_area, text="Multi-Instance", variable=multi_val).pack(pady=10)
+
+        font_source_val = ctk.StringVar(value=p_data.get("Custom Roblox Font Source", ""))
+        font_card = ctk.CTkFrame(
+            scroll_area,
+            corner_radius=8,
+            fg_color=self.get_surface_bg_color(),
+            border_width=1,
+            border_color=self.get_border_color()
         )
-        self.profile_old_avatar_background_switch.pack(pady=10)
-        if p_data.get("Use Old Avatar Editor Background", False):
-            self.profile_old_avatar_background_switch.select()
-        else:
-            self.profile_old_avatar_background_switch.deselect()
+        font_card.pack(fill="x", padx=10, pady=(8, 10))
+
+        ctk.CTkLabel(
+            font_card,
+            text="Font",
+            font=ctk.CTkFont(size=14, weight="bold"),
+            text_color=self.get_primary_text_color()
+        ).pack(anchor="w", padx=12, pady=(10, 2))
+
+        profile_font_status_label = ctk.CTkLabel(
+            font_card,
+            text="",
+            text_color=self.get_muted_text_color(),
+            wraplength=430,
+            justify="left"
+        )
+        profile_font_status_label.pack(anchor="w", padx=12, pady=(0, 8))
+
+        def refresh_profile_font_status():
+            source_path = font_source_val.get().strip()
+            status_text = f"Selected font: {os.path.basename(source_path)}" if source_path else "Using Roblox's default BuilderSans UI font."
+            profile_font_status_label.configure(text=status_text)
+
+        def choose_profile_font():
+            selected_file = filedialog.askopenfilename(
+                title="Select a Roblox UI font file",
+                filetypes=[("Font files", "*.otf *.ttf"), ("OpenType fonts", "*.otf"), ("TrueType fonts", "*.ttf"), ("All files", "*.*")],
+                parent=editor
+            )
+            if not selected_file:
+                return
+            extension = os.path.splitext(selected_file)[1].lower()
+            if extension not in SUPPORTED_CUSTOM_FONT_EXTENSIONS:
+                messagebox.showerror("Unsupported Font", "Please choose a .otf or .ttf font file.", parent=editor)
+                return
+            font_source_val.set(os.path.abspath(selected_file))
+            refresh_profile_font_status()
+
+        def clear_profile_font():
+            font_source_val.set("")
+            refresh_profile_font_status()
+
+        font_button_row = ctk.CTkFrame(font_card, fg_color="transparent")
+        font_button_row.pack(fill="x", padx=12, pady=(0, 10))
+        ctk.CTkButton(font_button_row, text="Choose Font", width=120, command=choose_profile_font).pack(side="left")
+        ctk.CTkButton(
+            font_button_row,
+            text="Reset Font",
+            width=110,
+            **self.get_neutral_button_style(),
+            command=clear_profile_font
+        ).pack(side="left", padx=(8, 0))
+        refresh_profile_font_status()
 
         def save_current_profile():
             new_name = name_entry.get().strip()
@@ -3217,11 +3504,18 @@ class UI(ctk.CTk):
             self.profiles_data[new_name] = self.normalize_profile_settings({
                 "Type": profile_type,
                 "Rendering Mode": ren_val.get(),
+                "Alt Enter Fullscreen": alt_enter_val.get(),
+                "Texture Quality Mode": texture_quality_val.get(),
+                "MSAA Mode": msaa_val.get(),
+                "Mesh Quality Level": profile_mesh_slider.get(),
+                "Graphics Quality Override": profile_graphics_slider.get(),
                 "discord_rpc": rpc_val.get(),
                 "MultiInstance": multi_val.get(),
                 "Mouse Cursor Preset": cursor_preset_val.get(),
-                "Emulate Old Character Sounds": self.profile_old_character_sounds_switch.get(),
-                "Use Old Avatar Editor Background": self.profile_old_avatar_background_switch.get()
+                "Emulate Old Character Sounds": old_character_sounds_val.get(),
+                "Use Old Avatar Editor Background": old_avatar_background_val.get(),
+                "Custom Roblox Font Source": font_source_val.get().strip(),
+                "FastFlags": {}
             })
             
             self.save_profiles_data()
@@ -3250,6 +3544,7 @@ class UI(ctk.CTk):
                 "NewPythonX_Studios@proton.me\n\n"
                 "----------------------------------------------------------------------\n\n"
                 f"Version: {APP_VERSION}\n"
+                f"Snapshot Build: {SNAPSHOT_BUILD}\n"
                 "Debug Mode: ON"
             )
         else:
@@ -3259,7 +3554,8 @@ class UI(ctk.CTk):
                 "Business Email:\n"
                 "NewPythonX_Studios@proton.me\n\n"
                 "----------------------------------------------------------------------\n\n"
-                f"Version: {APP_VERSION}"
+                f"Version: {APP_VERSION}\n"
+                f"Snapshot Build: {SNAPSHOT_BUILD}\n"
             )
         
         self.info_label = ctk.CTkLabel(
