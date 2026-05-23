@@ -17,7 +17,7 @@ jobs:
 
       - run: pip install pyinstaller
 
-      - run: pyinstaller --onefile --clean --noconsole --add-data "assets;assets" --distpath . VeloStrap.py
+      - run: pyinstaller --onefile --clean --noconsole --distpath . VeloStrap.py
 
       - name: Create ZIP
         run: |
