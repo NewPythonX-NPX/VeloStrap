@@ -1,12 +1,3 @@
-> [!CAUTION]
-> The only official places to download VeloStrap are this GitHub repository, [newpythonx-npx.github.io/velostrap-web](https://newpythonx-npx.github.io/velostrap-web) and [itch.io](https://newpythonx.itch.io/velo-strap). Any other websites offering downloads or claiming to be us are not owned by us.
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=soft&color=gradient&width=1000&height=300&section=header&text=VELOSTRAP&fontSize=90&fontAlignY=35&animation=twinkling&desc=Lightweight%20and,%20Fast&descSize=25&descAlignY=60" />
-</p>
-
----
-
 # 🎁 VeloStrap
 
 VeloStrap helps people with Roblox's FPS as some people are on low-end devices and don't have any good bootstrapper
@@ -70,4 +61,4 @@ Though this means you will lose your saved data.
 * 💬 [Join the VeloStrap Discord](https://discord.gg/CxGzGWmyNz)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 * 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)ch.io/velo-strap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
