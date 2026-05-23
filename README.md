@@ -2,6 +2,13 @@
 Only download from this Github, the website or the itch.io!!! Anyone claiming to be us on a different website or unofficial account
 is not affilated with NewPythonX in any way.
 
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='200' viewBox='0 0 600 200'%3E%3Crect width='100%25' height='100%25' fill='white'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='48' font-weight='bold' fill='black' text-anchor='middle' dominant-baseline='middle'%3EVeloStrap%3C/text%3E%3C/svg%3E">
+    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='200' viewBox='0 0 600 200'%3E%3Crect width='100%25' height='100%25' fill='black'/%3E%3Ctext x='50%25' y='50%25' font-family='Arial, sans-serif' font-size='48' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'%3EVeloStrap%3C/text%3E%3C/svg%3E" alt="VeloStrap" style="max-width:100%;">
+  </picture>
+</div>
+
 --
 
 # 🎁 VeloStrap
