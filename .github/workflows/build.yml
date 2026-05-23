@@ -19,10 +19,9 @@ jobs:
 
       - run: pyinstaller --onefile --clean --distpath . VeloStrap.py
 
-      # Create ZIP containing only the executable (cleaner release)
       - name: Create ZIP
         run: |
-          powershell Compress-Archive -Path VeloStrap.exe -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+          powershell Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
@@ -45,6 +44,4 @@ jobs:
       # Push the raw executable to itch.io for a cleaner, direct download
       - name: Deploy to Itch
         run: |
-          ./butler push VeloStrap.exe newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
-        env:
-          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+         ./butler push VeloStrap_${{ github.ref_name }}.zip newpythonx/velostrap-npx:windows --userversion ${{ github.ref_name }}
