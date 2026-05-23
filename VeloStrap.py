@@ -55,7 +55,7 @@ VersionDetectionURL = "https://raw.githubusercontent.com/NewPythonX-NPX/version-
 
 # OTHER IMPORTANT STUFF
 
-DISCORD_CLIENT_ID = "Scraped"
+DISCORD_CLIENT_ID = "1507646372210544710"
 ROBLOX_MUTEX_NAME = "ROBLOX_singletonEvent"
 ROBLOX_LIVE_VERSION_API = "https://clientsettings.roblox.com/v2/client-version/WindowsPlayer/channel/live"
 DEFAULT_RENDERING = "DX11 (Standard)"
