@@ -44,16 +44,6 @@ jobs:
         with:
           files: VeloStrap_${{ github.ref_name }}.zip
 
-      - name: Send Discord Notification
-        run: |
-          $body = @{
-            content = "🚀 **New VeloStrap Release (Stable or not) Ready!**`nVersion: ${{ github.ref_name }}`n# 📁 Download`nDownload the latest version from either the official Github(https://github.com/NewPythonX-NPX/VeloStrap/releases) or itch.io(https://newpythonx.itch.io/velostrap-npx) (P.S itch.io won't get snapshot releases)"
-          } | ConvertTo-Json -Depth 1
-          Invoke-RestMethod -Uri $env:DISCORD_WEBHOOK_URL -Method Post -Body $body -ContentType "application/json"
-        env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-        shell: powershell
-
       - name: Download Butler
         run: |
           curl -L -o butler.zip https://broth.itch.ovh/butler/windows-amd64/LATEST/archive/default
