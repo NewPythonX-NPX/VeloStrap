@@ -36,7 +36,7 @@ jobs:
 
       - name: Create ZIP
         run: |
-          Compress-Archive -Path dist\VeloStrap.exe -DestinationPath VeloStrap_${{ github.ref_name }}.zip
+          Compress-Archive -Path * -DestinationPath VeloStrap_${{ github.ref_name }}.zip
         shell: powershell
 
       - name: Upload Release Asset
