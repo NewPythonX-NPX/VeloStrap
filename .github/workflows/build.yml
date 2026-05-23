@@ -31,7 +31,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --onefile --noconsole --clean VeloStrap.py
+          pyinstaller --onefile --noconsole --hidden-import requests --hidden-import ctk --clean VeloStrap.py
         shell: powershell
 
       - name: Create ZIP
