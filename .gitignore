@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Compiled executable
+VeloStrap.exe
+VeloStrap.dist/
+
+# Save files and profiles
+agreement.json
+Config.json
+Profiles_Saves.json
+
+# Logs and errors
+Error Log/
+*.log
+
+# PyInstaller
+build/
+dist/
+*.spec
+
+# User data
+Custom-Flags/
+saves/
