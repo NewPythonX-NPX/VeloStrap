@@ -34,10 +34,9 @@ jobs:
         run: |
           nuitka --standalone --windows-console-mode=disable --output-dir=build --include-package=requests --include-package=customtkinter --enable-plugin=tk-inter --include-data-dir=assets=assets VeloStrap.py
 
-      - name: Create ZIP
-        run: |
-          powershell Compress-Archive -Path VeloStrap.dist\* -DestinationPath VeloStrap_${{ github.ref_name }}.zip
-        # Adjust path if your entry script is not VeloStrap.py (the .dist folder name will match).
+     - name: Create ZIP
+  run: |
+    powershell Compress-Archive -Path build\VeloStrap.dist\* -DestinationPath VeloStrap_${{ github.ref_name }}.zip
 
       - name: Upload Release Asset
         uses: softprops/action-gh-release@v1
