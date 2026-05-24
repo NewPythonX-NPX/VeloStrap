@@ -33,12 +33,17 @@ jobs:
       - name: Build Windows executable
         shell: pwsh
         run: |
-          python -m PyInstaller --noconfirm --onefile --windowed `
+          python -m PyInstaller --noconfirm --onefile --windowed --noconsole `
             --name VeloStrap `
             --hidden-import requests `
             --hidden-import customtkinter `
+            --hidden-import tkinter `
+            --hidden-import tkinter.messagebox `
+            --hidden-import tkinter.filedialog `
+            --hidden-import PIL `
+            --hidden-import pypresence `
+            --hidden-import plistlib `
             --collect-data customtkinter `
-            -- noconsole `
             VeloStrap.py
           New-Item -ItemType Directory -Force -Path release | Out-Null
           Copy-Item -LiteralPath "dist\VeloStrap.exe" -Destination "release\VeloStrap-windows.exe"
@@ -67,12 +72,17 @@ jobs:
 
       - name: Build macOS app
         run: |
-          python -m PyInstaller --noconfirm --windowed \
+          python -m PyInstaller --noconfirm --windowed --noconsole \
             --name VeloStrap \
             --hidden-import requests \
             --hidden-import customtkinter \
+            --hidden-import tkinter \
+            --hidden-import tkinter.messagebox \
+            --hidden-import tkinter.filedialog \
+            --hidden-import PIL \
+            --hidden-import pypresence \
+            --hidden-import plistlib \
             --collect-data customtkinter \
-            -- noconsole \ 
             VeloStrap.py
           hdiutil create -volname "VeloStrap" -srcfolder "dist/VeloStrap.app" -ov -format UDZO "VeloStrap-macOS.dmg"
           mkdir -p release
@@ -107,10 +117,16 @@ jobs:
 
       - name: Build Linux executable
         run: |
-          python -m PyInstaller --noconfirm --onefile --windowed \
+          python -m PyInstaller --noconfirm --onefile --windowed --noconsole \
             --name VeloStrap \
             --hidden-import requests \
             --hidden-import customtkinter \
+            --hidden-import tkinter \
+            --hidden-import tkinter.messagebox \
+            --hidden-import tkinter.filedialog \
+            --hidden-import PIL \
+            --hidden-import pypresence \
+            --hidden-import plistlib \
             --collect-data customtkinter \
             VeloStrap.py
           mkdir -p package/DEBIAN package/usr/local/bin package/usr/share/applications
