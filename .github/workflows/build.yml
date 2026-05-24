@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 env:
-  PYTHON_VERSION: "3.13"
+  PYTHON_VERSION: "3.14"
   PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller plistlib"
 
 jobs:
