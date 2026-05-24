@@ -11,7 +11,7 @@ permissions:
 
 env:
   PYTHON_VERSION: "3.13"
-  PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller"
+  PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller plistlib"
 
 jobs:
   build-windows:
@@ -38,6 +38,7 @@ jobs:
             --hidden-import requests `
             --hidden-import customtkinter `
             --collect-data customtkinter `
+            -- noconsole `
             VeloStrap.py
           New-Item -ItemType Directory -Force -Path release | Out-Null
           Copy-Item -LiteralPath "dist\VeloStrap.exe" -Destination "release\VeloStrap-windows.exe"
@@ -71,6 +72,7 @@ jobs:
             --hidden-import requests \
             --hidden-import customtkinter \
             --collect-data customtkinter \
+            -- noconsole \ 
             VeloStrap.py
           hdiutil create -volname "VeloStrap" -srcfolder "dist/VeloStrap.app" -ov -format UDZO "VeloStrap-macOS.dmg"
           mkdir -p release
