@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 env:
-  PYTHON_VERSION: "3.11"
+  PYTHON_VERSION: "3.13"
   PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller"
 
 jobs:
@@ -38,10 +38,6 @@ jobs:
             --hidden-import requests `
             --hidden-import customtkinter `
             --collect-data customtkinter `
-            --add-data "assets;assets" `
-            --add-data "IMPORTANT;IMPORTANT" `
-            --add-data "Mods;Mods" `
-            --add-data "Me_lo;Me_Lo" `
             VeloStrap.py
           New-Item -ItemType Directory -Force -Path release | Out-Null
           Copy-Item -LiteralPath "dist\VeloStrap.exe" -Destination "release\VeloStrap-windows.exe"
@@ -75,10 +71,6 @@ jobs:
             --hidden-import requests \
             --hidden-import customtkinter \
             --collect-data customtkinter \
-            --add-data "assets:assets" \
-            --add-data "IMPORTANT:IMPORTANT" \
-            --add-data "Mods:Mods" \
-            --add-data "Me_lo:Me_Lo" \
             VeloStrap.py
           hdiutil create -volname "VeloStrap" -srcfolder "dist/VeloStrap.app" -ov -format UDZO "VeloStrap-macOS.dmg"
           mkdir -p release
@@ -124,7 +116,6 @@ jobs:
           chmod 755 package/usr/local/bin/velostrap
           cat > package/DEBIAN/control <<'EOF'
           Package: velostrap
-          Version: 0.2.0
           Section: games
           Priority: optional
           Architecture: amd64
