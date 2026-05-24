@@ -11,6 +11,7 @@ permissions:
 
 env:
   PYTHON_VERSION: "3.12"
+  cache: "pip"
   PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller plistlib"
 
 jobs:
