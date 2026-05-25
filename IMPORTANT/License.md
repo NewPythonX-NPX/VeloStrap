@@ -1,35 +1,38 @@
-# NewPythonX Studio – Official License
+# NewPythonX Studio – Official Developer License
 
- Last updated: May 22th, 2026
+ Last updated: (date), (year)
 
  Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
  This license is governed by the laws of Germany and follows GDPR rules.
 
 
-## Overview
+## Summary Overview
 
-The source code is open for anyone to study, learn from, and use, but only if you follow the rules below.
+The source code is available for anyone to study, learn from, and modify under the terms below
 
-# 🧧 Rules You Must Follow
+# Rules You Must Follow
 
 **Give Credit**
 If you use any part of this code, or if your project is heavily based on my logic, you must clearly credit @horimiya_lover8053 and NewPythonX Studio.
 
-**Open Source**
-Falls with the rule above, I plead you to make your code open-source.
-You may make it closed source with the expection of using APIs or Servers.
-
 **Don't Use Our Name or Logo**
-The name "NewPythonX" and the official logo belong only to NewPythonX Studio. If you use them in your own project, you will get an immediate copyright strike.
+If you use them without permission, NewPythonX Studio will pursue copyright and trademark enforcement.
 
 **No Responsibility**
 This software is provided as-is. NewPythonX Studio and Hori are not responsible for any crashes, bugs, or problems that happen while using this launcher.
 
-**Don't Tamper With The OFFICIAL Code**
-You are not allowed to change the app version or debug the code IN THE OFFICIAL CODE. This is strictly for Hori and the contributors. Commercial members may receive cheat sheets showing how to make changes, but you are not allowed to share those instructions or modify the actual code itself.
+**Modification is Allowed at Your Own Risk**
+You may modify the code for your own use. However, if your modified version becomes a cheat tool or violates Roblox's Terms of Service, NewPythonX Studio assumes no responsibility. You alone bear all risks, including bans or legal action from Roblox.
 
-# 📗 Rules You Can Overtalk about
+**License**
+Modified versions may be shared only if they remain under the exact same license and include clear notice of changes made in the README or somewhere visible. (The entire modified project)
+
+# Rules With Possible Exceptions
 
 **Commercial Use**
-You are strictly forbidden from selling this software or using the code to make money in any way. You may ask for permission with somebody with the role "Negotiater" and talk about it to get a legal license for commerical use.
+You are strictly forbidden from selling this software or using the code to make money in any way. 
+You can contact NPX (NewPythonX) to purchase a commercial license.
+
+# CROSS REFERENCES
+- **EULA.md**
