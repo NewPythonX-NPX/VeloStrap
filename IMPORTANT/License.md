@@ -1,6 +1,6 @@
 # NewPythonX Studio – Official Developer License
 
- Last updated: (date), (year)
+ Last updated: 25th of May, 2026
 
  Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
