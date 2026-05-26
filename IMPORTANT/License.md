@@ -1,38 +1,54 @@
 # NewPythonX Studio – Official Developer License
 
- Last updated: 25th of May, 2026
+ Last updated: 26 of May, 2026
 
- Copyright (c) 2026 NewPythonX Studio. All rights reserved.
+  Copyright © 2026 NewPythonX Studio. All rights reserved.
 
- This license is governed by the laws of Germany and follows GDPR rules.
+ This license is governed by the laws of Germany and respects the GDPR (General Data Protection Regulation).
 
+## Overview
+You are free to study, learn from, and modify the source code, as long as you follow all the rules below.
 
-## Summary Overview
+## Rules You Must Follow
+**Give credit.**
+If you use any part of this code, or if your project is heavily based on our logic, you must clearly credit @horimiya_lover8053 and NewPythonX Studio.
 
-The source code is available for anyone to study, learn from, and modify under the terms below
+**Don’t use our name or logo.**
+You may not use the name “NewPythonX Studio” or our logo without our permission. If you do, we will enforce our copyright and trademark rights.
 
-# Rules You Must Follow
+**No responsibility.**
+This software is provided “as is.” NewPythonX Studio and Hori are not responsible for any crashes, bugs, or problems that happen while using this launcher.
 
-**Give Credit**
-If you use any part of this code, or if your project is heavily based on my logic, you must clearly credit @horimiya_lover8053 and NewPythonX Studio.
+**Modification is allowed, but at your own risk.**
+You can change the code for your own use. However, if your modified version turns into a cheat tool or violates Roblox’s Terms of Service, we are not responsible. You alone bear all risks, including bans or legal action from Roblox.
 
-**Don't Use Our Name or Logo**
-If you use them without permission, NewPythonX Studio will pursue copyright and trademark enforcement.
+**Sharing modified versions.**
+You may share a modified version only if:
 
-**No Responsibility**
-This software is provided as-is. NewPythonX Studio and Hori are not responsible for any crashes, bugs, or problems that happen while using this launcher.
+the entire modified project stays under this exact same license, and
 
-**Modification is Allowed at Your Own Risk**
-You may modify the code for your own use. However, if your modified version becomes a cheat tool or violates Roblox's Terms of Service, NewPythonX Studio assumes no responsibility. You alone bear all risks, including bans or legal action from Roblox.
+you include a clear notice of the changes you made, placed in the README or somewhere else visible.
 
-**License**
-Modified versions may be shared only if they remain under the exact same license and include clear notice of changes made in the README or somewhere visible. (The entire modified project)
+## Rules With Possible Exceptions
+Commercial use
+You are strictly forbidden from selling this software or using the code to make money in any way.
 
-# Rules With Possible Exceptions
+If you want to use it commercially, you must purchase a commercial license from us.
 
-**Commercial Use**
-You are strictly forbidden from selling this software or using the code to make money in any way. 
-You can contact NPX (NewPythonX) to purchase a commercial license.
+**How to Purchase a Commercial License, contact:**
 
-# CROSS REFERENCES
-- **EULA.md**
+Discord: @horimiya_lover8053
+
+License Contractors (Negotiators)
+
+Fallback:
+If you don’t receive a response within 14 calendar days, you can request a status update in the official NewPythonX Studio server (invite link is in the README). We make reasonable efforts to respond, but we do not guarantee response times.
+
+Please keep in mind that the owner is in school and may not always be available. If you’ve waited more than 2 weeks after messaging @horimiya_lover8053 and still haven’t heard back, we recommend reaching out to someone else through the official server.
+
+## Related Documents
+This license should be read together with:
+
+- EULA.md
+
+- README.md
