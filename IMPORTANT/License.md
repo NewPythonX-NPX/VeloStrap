@@ -30,7 +30,7 @@ the entire modified project stays under this exact same license, and
 you include a clear notice of the changes you made, placed in the README or somewhere else visible.
 
 ## Rules With Possible Exceptions
-Commercial use
+**Commercial use**
 You are strictly forbidden from selling this software or using the code to make money in any way.
 
 If you want to use it commercially, you must purchase a commercial license from us.
