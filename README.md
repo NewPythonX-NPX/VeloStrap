@@ -1,4 +1,4 @@
-> CAUTION
+>! CAUTION:
 Only download from this Github, the website or the itch.io!!! Anyone claiming to be us on a different website or unofficial account
 is not affilated with NewPythonX in any way.
 
