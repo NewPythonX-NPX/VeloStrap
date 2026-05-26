@@ -10,6 +10,7 @@ VeloStrap.dist/
 agreement.json
 Config.json
 Profiles_Saves.json
+selected_os.json
 
 # Logs and errors
 Error Log/
@@ -23,3 +24,6 @@ dist/
 # User data
 Custom-Flags/
 saves/
+
+# Cleaner
+VeloStrap.py
