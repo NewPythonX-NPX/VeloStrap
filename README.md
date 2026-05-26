@@ -1,6 +1,10 @@
 >! CAUTION:
 Only download from this Github, the website or the itch.io!!! Anyone claiming to be us on a different website or unofficial account
 is not affilated with NewPythonX in any way.
+Official Download Links are:
+* 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
+* 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 
 <div align="center">
   <img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='200' viewBox='0 0 600 200'%3E%3Cdefs%3E%3Cstyle%3E text %7B font-family: Arial, sans-serif; font-size: 48px; font-weight: bold; text-anchor: middle; dominant-baseline: middle; %7D .bg %7B fill: white; %7D .fg %7B fill: black; %7D @media (prefers-color-scheme: light) %7B .bg %7B fill: black; %7D .fg %7B fill: white; %7D %7D %3C/style%3E%3C/defs%3E%3Crect class='bg' width='100%25' height='100%25'/%3E%3Ctext class='fg' x='50%25' y='50%25'%3EVeloStrap%3C/text%3E%3C/svg%3E" alt="VeloStrap" style="max-width:100%;">
