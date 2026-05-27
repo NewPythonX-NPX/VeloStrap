@@ -1,6 +1,6 @@
 # NewPythonX Studio – Official Developer License
 
- Last updated: 26th of May, 2026
+ Last updated: 27th of May, 2026
 
   Copyright © 2026 NewPythonX Studio. All rights reserved.
 
@@ -44,7 +44,7 @@ License Contractors (Negotiators)
 Fallback:
 If you don’t receive a response within 14 calendar days, you can request a status update in the official NewPythonX Studio server (invite link is in the README). We make reasonable efforts to respond, but we do not guarantee response times.
 
-Please keep in mind that the owner is in school and may not always be available. If you’ve waited more than 2 weeks after messaging @horimiya_lover8053 and still haven’t heard back, we recommend reaching out to someone else through the official server.
+Please keep in mind that the owner is in school and may not always be available. If you’ve waited more than 2 weeks after messaging @horimiya_lover8053 and still haven’t heard back, we recommend reaching out to someone else through the official server or the alt account of @horimiya_lover8053 (@themostaverage_s0ul)
 
 ## Related Documents
 This license should be read together with:
