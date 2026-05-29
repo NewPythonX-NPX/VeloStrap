@@ -51,5 +51,8 @@ You chose to use these features.
 10. EULA Updates
 It is your job to periodically check on the EULA for any updates. All and any updates to the EULA will be announced in the Discord. You must not join the discord but if the EULA updates and you break a EULA term you are still legally bound to the EULA.
 
-11.  Legal Problems
+11. ToS
+Find ToS here: https://github.com/NewPythonX-NPX/RequiredByUs/blob/main/ToS.md
+
+12.  Legal Problems
 Any legal problems will be handled using German law.
