@@ -11,26 +11,31 @@ You are free to study, learn from, and modify the source code, as long as you fo
 
 ## Rules You Must Follow
 **Give credit.**
+
 If you use any part of this code, or if your project uses our code/logic directly (copy and pasting or looking in our code and writing it the exact same way or using your memory to write it the same way), you must clearly credit @horimiya_lover8053 and NewPythonX Studio.
 
 **Don’t use our name or logo.**
+
 You may not use the name “NewPythonX Studio” for the studio behind the project nor the project name or our logo without our permission, except for crediting us, there you can use our name but our logo is still strictly forbidden. If you do, we will enforce our copyright and trademark rights.
 
 **No responsibility.**
+
 This software is provided “as-is.” NewPythonX Studio and Hori are not responsible for any crashes, bugs, or problems that happen while using this launcher.
 
 **Modification is allowed, but at your own risk.**
+
 You can change the code for your own use. However, if your modified version turns into a cheat tool or violates Roblox’s Terms of Service, we are not responsible. You alone bear all risks, including bans or legal action from Roblox.
 
 **Sharing modified versions.**
+
 You may share a modified version only if:
 
-the entire modified project stays under this exact same license, and
+The entire modified project stays under this exact same license, and
 
-you include a clear notice of the changes you made, placed in the README or somewhere else visible.
+you include a clear notice of the changes you made, placed in the README or somewhere else visible to the standard user.
 
 **Commercial use**
-You are strictly forbidden from selling this software or using the code to make money in anyway (paypal, bank, in-hand, card, etc.). However donations are seperate from gaining money. These are allowed.
+You are strictly forbidden from selling your software for money or using the code to make money. However donations are seperate from gaining money. These are allowed.
 
 ## Related Documents
 This license (i.e markdown file) should be read together with:
