@@ -46,7 +46,7 @@ NPX Studios is not connected to, supported by, or endorsed by Roblox.
 If you get banned, suspended, or lose your Roblox account, NPX is not responsible.
 You chose to use these features.
 
-10.  EULA Updates
+10. EULA Updates
 We announce EULA updates in Discord and on the GitHub repo. It is your responsibility to check periodically. Continued use of VeloStrap after an update means you accept the new terms.
 
 11. Legal Problems
