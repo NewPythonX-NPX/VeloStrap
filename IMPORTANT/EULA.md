@@ -10,8 +10,8 @@ Legal Jurisdiction: Germany (DE) - GDPR Compliant
 
 -----------------------------------------------
 
-1. You Agree to These Rules
-By using VeloStrap or joining the NPX community, you agree to this EULA, the NPX License, and the Privacy Policy. If you don't agree, uninstall VeloStrap from your computer.
+1. You Agree & Are Bound to These Rules
+By using VeloStrap or joining the community, you agree to this EULA, the License, and the Privacy Policy. If you don't agree, uninstall VeloStrap from your computer. All legal problems will be handled under German law. (Section 10)
 
 2. What You Can Do
 NPX gives you permission to use VeloStrap for free, for personal use only. You can't sell it or use it to make money.
@@ -29,24 +29,24 @@ If you use our name or logo without permission, [License.md]
 
 5. No Promises
 VeloStrap is given "as-is."
-We are not responsible for any bugs, crashes, or problems unless the problem is caused by VeloStrap itself and not by Roblox.
+We are not responsible for any bugs, crashes, or problems, regardless of cause.
 
 6. Code
 You may not remove the header in the code.
 
-8. Roblox's Rules
+7. Roblox's Rules
 VeloStrap has features like Multi-Instance that change how Roblox works.
 You understand that using these features might break Roblox's Terms of Service.
 That is YOUR risk. Not ours.
 
-9. We're Not With Roblox
+8. We're Not With Roblox
 NPX Studios is not connected to, supported by, or endorsed by Roblox.
 
-10. You Take the Risk
+9. You Take the Risk
 If you get banned, suspended, or lose your Roblox account, NPX is not responsible.
 You chose to use these features.
 
-11. EULA Updates
+10. EULA Updates
 We announce EULA updates in Discord and on the GitHub repo (commits). It is your responsibility to check periodically. Continued use of VeloStrap after an update means you accept the new terms. You arent required to join the discord but if you dont there is no way to check,
 all users within the discord will be pinged via @everyone so everybody had a chance to read and understand the new EULA terms.
 
