@@ -32,7 +32,7 @@ VeloStrap is given "as-is."
 We are not responsible for any bugs, crashes, or problems unless the problem is caused by VeloStrap itself and not by Roblox.
 
 6. Code
-You may not remove this header unless you are using the unmodified code for personal, non-commercial purposes.
+You may not remove the header in the code.
 
 8. Roblox's Rules
 VeloStrap has features like Multi-Instance that change how Roblox works.
