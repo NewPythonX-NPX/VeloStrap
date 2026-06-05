@@ -30,7 +30,10 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 ## 💎 Credits & Team
 
 **Creator & Lead Developer**
-* **@horimiya_lover8053** - NewPythonX Studio (NPX)
+* **@horimiya_lover8053** - NewPythonX Studio (NPX Studios)
+
+**Contributors**
+* **@ilias3208 (703620248036835508)** - Linux compiler & tester
 
 **AI Assistants**
 * **ChatGPT (Codex)** - Lead Programmer
