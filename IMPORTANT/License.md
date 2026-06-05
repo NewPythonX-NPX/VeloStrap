@@ -30,7 +30,7 @@ the entire modified project stays under this exact same license, and
 you include a clear notice of the changes you made, placed in the README or somewhere else visible.
 
 **Commercial use**
-You are strictly forbidden from selling this software or using the code to make money in any way.
+You are strictly forbidden from selling this software or using the code to make money in anyway (paypal, bank, in-hand, card, etc.).
 
 ## Related Documents
 This license (i.e markdown file) should be read together with:
