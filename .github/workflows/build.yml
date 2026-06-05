@@ -34,7 +34,7 @@ jobs:
       - name: Build Windows executable
         shell: pwsh
         run: |
-          python -m PyInstaller --noconfirm --onefile --windowed --noconsole `
+          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT;IMPORTANT" --add-data "assets;assets" --clean VeloStrap.py `
             --name VeloStrap `
             --hidden-import requests `
             --hidden-import customtkinter `
@@ -73,7 +73,7 @@ jobs:
 
       - name: Build macOS app
         run: |
-          python -m PyInstaller --noconfirm --windowed --noconsole \
+          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT:IMPORTANT" --add-data "assets:assets" --clean VeloStrap.py \
             --name VeloStrap \
             --hidden-import requests \
             --hidden-import customtkinter \
@@ -118,7 +118,7 @@ jobs:
 
       - name: Build Linux executable
         run: |
-          python -m PyInstaller --noconfirm --onefile --windowed --noconsole \
+          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT:IMPORTANT" --add-data "assets:assets" --clean VeloStrap.py \
             --name VeloStrap \
             --hidden-import requests \
             --hidden-import customtkinter \
