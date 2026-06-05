@@ -29,7 +29,7 @@ If you use our name or logo without permission, [License.md]
 
 5. No Promises
 VeloStrap is given "as-is."
-We are not responsible for any bugs, crashes, or problems unless they are occured from VeloStrap themself and not Roblox.
+We are not responsible for any bugs, crashes, or problems unless the problem is caused by VeloStrap itself and not by Roblox.
 
 6. Don't Mess With the Code
 Don't remove the header in the code, unless you dont modify any part of the code and use it for personal use.
