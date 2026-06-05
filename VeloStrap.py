@@ -428,14 +428,13 @@ def run_update_check():
 def run_eula_check():
     global LOCAL_EULA_VERSION
     try:
-        
-        EULA_ID = EULA_ID.strip()
         response = requests.get(EulaDetectionURL, timeout=10)
         if response.status_code == 200:
             try:
+                LOCAL_EULA_VERSION = LOCAL_EULA_VERSION.strip() # pyright: ignore[reportConstantRedefinition]
                 data = response.json()
                 if isinstance(data, dict) and "version" in data:
-                    cloud_eula_version = str(data["version"]).strip()
+                    cloud_eula_version = str(data["version"]).strip() # pyright: ignore[reportUnknownArgumentType]
                     if cloud_eula_version != LOCAL_EULA_VERSION:
                         print(f"New EULA available. Local: {LOCAL_EULA_VERSION} | Cloud: {cloud_eula_version}")
                         # Invalidate agreement status so user must agree to new EULA
@@ -452,6 +451,7 @@ def run_eula_check():
                                 json.dump(agreement_data, f, indent=4)
                                 
                         sys.exit() # Exit so user can restart and see the EULA agreement flow with the new version
+                        LOCAL_EULA_VERSION = cloud_eula_version # pyright: ignore[reportConstantRedefinition]
                     else:
                         pass
             except json.JSONDecodeError as e:
@@ -5149,7 +5149,7 @@ class UI(ctk.CTk):
 # ==========================================
 if __name__ == "__main__":
     loading_seq()
-    run_update_check()
+    run_eula_check()
     app = UI() # pyright: ignore[reportUndefinedVariable, reportUnknownVariableType]
 
     if sys.platform == "linux":
