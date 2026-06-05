@@ -37,8 +37,10 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 **AI Assistants**
 * **ChatGPT (Codex)** - Lead Programmer
-* 
-* **Deepseek** - New Programmar
+
+* **Cursor** - Programmar
+
+* **Deepseek** - Depracted of Use
 
 * **Gemini** - Depracted of Use
 
