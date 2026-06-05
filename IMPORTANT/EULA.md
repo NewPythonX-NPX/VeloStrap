@@ -31,24 +31,24 @@ If you use our name or logo without permission, [License.md]
 VeloStrap is given "as-is."
 We are not responsible for any bugs, crashes, or problems unless the problem is caused by VeloStrap itself and not by Roblox.
 
-6. Don't Mess With the Code
-Don't remove the header in the code, unless you dont modify any part of the code and use it for personal use.
+6. Code
+You may not remove this header unless you are using the unmodified code for personal, non-commercial purposes.
 
-7. Roblox's Rules
+8. Roblox's Rules
 VeloStrap has features like Multi-Instance that change how Roblox works.
 You understand that using these features might break Roblox's Terms of Service.
 That is YOUR risk. Not ours.
 
-8. We're Not With Roblox
+9. We're Not With Roblox
 NPX Studios is not connected to, supported by, or endorsed by Roblox.
 
-9. You Take the Risk
+10. You Take the Risk
 If you get banned, suspended, or lose your Roblox account, NPX is not responsible.
 You chose to use these features.
 
-10. EULA Updates
+11. EULA Updates
 We announce EULA updates in Discord and on the GitHub repo (commits). It is your responsibility to check periodically. Continued use of VeloStrap after an update means you accept the new terms. You arent required to join the discord but if you dont there is no way to check,
 all users within the discord will be pinged via @everyone so everybody had a chance to read and understand the new EULA terms.
 
-11. Legal Problems
+12. Legal Problems
 Any legal problems will be handled using German law.
