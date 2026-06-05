@@ -47,7 +47,8 @@ If you get banned, suspended, or lose your Roblox account, NPX is not responsibl
 You chose to use these features.
 
 10. EULA Updates
-We announce EULA updates in Discord and on the GitHub repo (commits). It is your responsibility to check periodically. Continued use of VeloStrap after an update means you accept the new terms.
+We announce EULA updates in Discord and on the GitHub repo (commits). It is your responsibility to check periodically. Continued use of VeloStrap after an update means you accept the new terms. You arent required to join the discord but if you dont there is no way to check,
+all users within the discord will be pinged via @everyone so everybody had a chance to read and understand the new EULA terms.
 
 11. Legal Problems
 Any legal problems will be handled using German law.
