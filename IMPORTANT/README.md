@@ -22,9 +22,7 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Internet Connection:** Required for the initial setup and to fetch the latest Roblox versions automatically.
 * **No Manual Install Needed:** VeloStrap will automatically detect, download, and update Roblox if it isn't found on your system or is outdated
-* **Windows (Stable):** Windows is the only fully supported platform right now.
-* **Mac (EXPERIMENTAL):** VeloStrap can download the official Roblox Mac `.dmg`, install `Roblox.app`, and launch Roblox, but this support is experimental.
-* **Linux (EXPERIMENTAL):** Linux support uses Sober through Flatpak. Linux builds are published on GitHub Releases only, not Itch.io.
+* **Windows OS Needed:** Currently only Windows is supported, Linux and MacOS not yet.
 
 ---
 
