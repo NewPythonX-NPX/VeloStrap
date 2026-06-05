@@ -11,8 +11,7 @@ permissions:
 
 env:
   PYTHON_VERSION: "3.12"
-  cache: "pip"
-  PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller plistlib"
+  PYTHON_DEPS: "customtkinter requests pillow pypresence pyinstaller"
 
 jobs:
   build-windows:
@@ -34,14 +33,17 @@ jobs:
       - name: Build Windows executable
         shell: pwsh
         run: |
-          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT;IMPORTANT" --add-data "assets;assets" --clean VeloStrap.py `
+          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT;IMPORTANT" --add-data "assets;assets" --clean `
             --name VeloStrap `
             --hidden-import requests `
             --hidden-import customtkinter `
             --hidden-import tkinter `
+            --hidden-import tkinter.ttk `
             --hidden-import tkinter.messagebox `
             --hidden-import tkinter.filedialog `
             --hidden-import PIL `
+            --hidden-import PIL.Image `
+            --hidden-import PIL.ImageTk `
             --hidden-import pypresence `
             --hidden-import plistlib `
             --collect-data customtkinter `
@@ -73,14 +75,17 @@ jobs:
 
       - name: Build macOS app
         run: |
-          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT:IMPORTANT" --add-data "assets:assets" --clean VeloStrap.py \
+          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT:IMPORTANT" --add-data "assets:assets" --clean \
             --name VeloStrap \
             --hidden-import requests \
             --hidden-import customtkinter \
             --hidden-import tkinter \
+            --hidden-import tkinter.ttk \
             --hidden-import tkinter.messagebox \
             --hidden-import tkinter.filedialog \
             --hidden-import PIL \
+            --hidden-import PIL.Image \
+            --hidden-import PIL.ImageTk \
             --hidden-import pypresence \
             --hidden-import plistlib \
             --collect-data customtkinter \
@@ -118,14 +123,17 @@ jobs:
 
       - name: Build Linux executable
         run: |
-          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT:IMPORTANT" --add-data "assets:assets" --clean VeloStrap.py \
+          python -m pyinstaller --onefile --noconsole --add-data "IMPORTANT:IMPORTANT" --add-data "assets:assets" --clean \
             --name VeloStrap \
             --hidden-import requests \
             --hidden-import customtkinter \
             --hidden-import tkinter \
+            --hidden-import tkinter.ttk \
             --hidden-import tkinter.messagebox \
             --hidden-import tkinter.filedialog \
             --hidden-import PIL \
+            --hidden-import PIL.Image \
+            --hidden-import PIL.ImageTk \
             --hidden-import pypresence \
             --hidden-import plistlib \
             --collect-data customtkinter \
@@ -201,7 +209,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            release-assets/velostrap-windows/VeloStrap-windows.exe
-            release-assets/velostrap-macos/VeloStrap-macOS.dmg
-            release-assets/velostrap-linux/VeloStrap-linux-amd64.deb
+            release-assets/velostrap-windows/release/VeloStrap-windows.exe
+            release-assets/velostrap-macos/release/VeloStrap-macOS.dmg
+            release-assets/velostrap-linux/release/VeloStrap-linux-amd64.deb
             release-assets/velostrap-source/release/VeloStrap-*-source.zip
