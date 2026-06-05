@@ -33,7 +33,7 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 * **@horimiya_lover8053** - NewPythonX Studio (NPX Studios)
 
 **Contributors**
-* **@ilias3208 (703620248036835508)** - Linux compiler & tester
+* **@ilias3208 (703620248036835508)** - Linux compiler & tester (Discord)
 
 **AI Assistants**
 * **ChatGPT (Codex)** - Lead Programmer
