@@ -4,51 +4,50 @@ Project: VeloStrap
 
 Last Updated: June 5th 2026
 
-Founder: @horimiya_lover8053 on Discord
+Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
 Legal Jurisdiction: Germany (DE) - GDPR Compliant
 
 -----------------------------------------------
 
-1. Acceptance of Terms
-By interacting with this software or entering the NewPythonX Development Zone, 
-you agree to this EULA, the official NPX License, and the Privacy Policy. 
-If you do not agree, please uninstall this application of this Computer.
+1. You Agree to These Rules
+By using VeloStrap or joining the NPX community, you agree to this EULA, the NPX License, and the Privacy Policy. If you don't agree, uninstall VeloStrap from your computer.
 
-2. Grant of License
-NewPythonX Studio grants you a non-exclusive, non-commercial license to use 'The Launcher'.
+2. What You Can Do
+NPX gives you permission to use VeloStrap for free, for personal use only. You can't sell it or use it to make money.
+For more details, read License.md.
 
-For further information read License.md
+3. Your Privacy (GDPR)
+We follow German privacy law (GDPR).
+We do NOT collect your data.
+If you're a commercial buyer (someone who paid for a license to use it for money), we only store your Discord username and ID. Nothing else.
+We never touch your Roblox data, we cant even access it.
 
-3. Privacy & GDPR (Datenschutz)
-In compliance with German law:
-Data Minimization: We do not collect personal data from standard users. (Non-commerical clients)
+4. Our Brand
+The name "NewPythonX" and our logo belong to NPX Studios.
+If you use our name or logo without permission, [License.md]
 
-Commercial Clients: 
-Only Discord Usernames and UserIDs are stored for licensing purposes. 
-No data from third-party platforms (Roblox, etc.) is ever accessed or stored.
+5. No Promises
+VeloStrap is given "as-is."
+We are not responsible for any bugs, crashes, or problems unless they are occured from VeloStrap themself and not Roblox.
 
-4. Brand Protection
-The NewPythonX name and logo are exclusive property to Hori. 
-Unauthorized use or "cloning" of the brand identity will result in an immediate Copyright Strike. 
+6. Don't Mess With the Code
+Don't remove the header in the code, unless you dont modify any part of the code and use it for personal use.
 
-5. Limitation of Liability
-The software is provided "as-is.". Further information in License.md.
+7. Roblox's Rules
+VeloStrap has features like Multi-Instance that change how Roblox works.
+You understand that using these features might break Roblox's Terms of Service.
+That is YOUR risk. Not ours.
 
-6. Open-Source Limitation
-You are not allowed to remove the header in the code unless you dont modify anything else and use it for personal use only.
+8. We're Not With Roblox
+NPX Studios is not connected to, supported by, or endorsed by Roblox.
 
-1. Third-Party Platform Compatibility & Risk
-VeloStrap provides features such as Multi-Instance that interact with third-party software (Roblox).
+9. You Take the Risk
+If you get banned, suspended, or lose your Roblox account, NPX is not responsible.
+You chose to use these features.
 
-User Responsibility: You acknowledge that using features that modify standard client behavior may be against the Terms of Service
-(ToS) of said third-party platforms.
+10.  EULA Updates
+It is your job to periodically check on the EULA for any updates. All and any updates to the EULA will be announced in the Discord. You must not join the discord but if the EULA updates and you break a EULA term you are still legally bound to the EULA. It is recomemended to reread the entire EULA for each and every update.
 
-8. No Endorsement
-NewPythonX does not claim these features are officially supported by third-party developers.
-
-9. Governing Law
-This agreement shall be governed by the laws of Germany.
-
-Assumption of Risk: Use of these features is at the user's own risk. NewPythonX Studio is not liable for any account actions, 
-bans, or restrictions imposed by third-party platforms. We strictly modify them using safe ways such as using Fastflags built into the client app itself.
+11. Legal Problems
+Any legal problems will be handled using German law.
