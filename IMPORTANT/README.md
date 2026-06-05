@@ -3,7 +3,8 @@
 VeloStrap helps people with Roblox's FPS as some people are on low-end devices and don't have any good bootstrapper
 to boost their FPS.
 
-Copyright (c) 2026 NewPythonX Studio. All rights reserved.
+Copyright (c) 2026 @horimiya_lover8053 & NewPythonX Studio
+All rights reserved.
 
 ---
 
@@ -30,12 +31,13 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 **Creator & Lead Developer**
 * **@horimiya_lover8053** - NewPythonX Studio (NPX)
-* Frontend Programmar (no backend, and text as frontend)
 
 **AI Assistants**
-* **ChatGPT (Codex)** - Lead Programmar
-* **DeepSeek** - New Programmar
-* **Gemini (Pro)** - Deprecated Use
+* **ChatGPT (Codex)** - Lead Programmer
+* 
+* **Deepseek** - New Programmar
+
+* **Gemini** - Depracted of Use
 
 ---
 
@@ -48,8 +50,8 @@ double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
 
-A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: config.json, profile_saves.json, disclaimer.json.
-Though this means you will lose your saved data.
+A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: config.json, profile_saves.json.
+Though this means you will lose your saved fastflags/mods or custom fastflags.
 
 ---
 
