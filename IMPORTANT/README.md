@@ -36,9 +36,11 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 * **@ilias3208 (703620248036835508)** - Linux compiler & tester (Discord)
 
 **AI Assistants**
-* **ChatGPT (Codex)** - Lead Programmer
+* **ChatGPT (Codex)** - Senior Programmer
 
 * **Cursor** - Programmar
+
+* **Claude AI** - Backup Programmar 
 
 * **Deepseek** - Depracted of Use
 
