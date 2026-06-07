@@ -12,7 +12,11 @@ Subject to the terms and conditions of this License, NewPythonX Studio grants yo
 ## Rules You Must Follow
 **Give credit.**
 
-If you distribute the Software or any modified version of the Software, you must include a visible attribution notice crediting "@horimiya_lover8053" and "NewPythonX Studio" in the project's README file or other prominent documentation. This attribution notice must remain intact in all redistributed versions.
+If you distribute the Software or any modified version of the Software, you must include a visible attribution notice crediting "@horimiya_lover8053" and "NewPythonX Studio" in the project's README file or other prominent documentation. This attribution notice must remain intact in all redistributed versions. Context & Wording matter while crediting us, the recommended credit text is this:
+
+"Credits to:
+NewPythonX Studio & @horimiya_lover8053.
+Their Github: https://github.com/NewPythonX-NPX/"
 
 **Don’t use our name or logo.**
 
@@ -48,7 +52,7 @@ Any violation of this License automatically terminates the rights granted under 
 If the violation is cured within thirty (30) days after the licensee becomes aware of it, the rights granted under this License shall be automatically reinstated.
 
 **Goverened by**
-This License shall be governed by and construed in accordance with the laws of Germany, excluding its conflict of law provisions.
+Governing Law. This License shall be governed by and construed in accordance with the laws of Germany, excluding its conflict of law provisions.
 
 ## Related Documents
 This license (i.e markdown file) should be read together with:
