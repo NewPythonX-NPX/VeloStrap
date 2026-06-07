@@ -34,6 +34,9 @@ The entire modified project stays under this exact same license, and you must in
 **Commercial use**
 You may not sell the software itself or charge users for access to it. However, donations, Patreon support, sponsorships, advertising revenue, and similar indirect funding methods are permitted.
 
+# Termination Clause
+Any violation of this license immediately terminates the rights granted under it.
+
 ## Related Documents
 This license (i.e markdown file) should be read together with:
 
