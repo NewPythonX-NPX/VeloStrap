@@ -12,11 +12,13 @@ Subject to the terms and conditions of this License, NewPythonX Studio grants yo
 ## Rules You Must Follow
 **Give credit.**
 
-If you distribute the Software or any modified version of the Software, you must include a visible attribution notice crediting "@horimiya_lover8053" and "NewPythonX Studio" in the project's README file or other prominent documentation. This attribution notice must remain intact in all redistributed versions. Context & Wording matter while crediting us, the recommended credit text is this:
+If you distribute the Software or any modified version of the Software, you must include a visible attribution notice crediting "@horimiya_lover8053" and "NewPythonX Studio" in the project's README file or other prominent documentation. This attribution notice must remain intact in all redistributed versions. The following attribution text must be included:
 
 "Credits to:
 NewPythonX Studio & @horimiya_lover8053.
-Their Github: https://github.com/NewPythonX-NPX/"
+Their Github: https://github.com/NewPythonX-NPX/
+Itch.io: https://newpythonx.itch.io
+"
 
 **Don’t use our name or logo.**
 
