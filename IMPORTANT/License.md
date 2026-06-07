@@ -43,10 +43,14 @@ You may distribute modified versions of the Software only if:
 3. You retain all copyright notices and attribution requirements contained in this License.
 4. You provide a copy of this License with the distributed version.
 
-**Commercial use**
+**Commercial use & Bundling & Company Use**
 You may not sell, license, rent, sublicense, or otherwise charge a fee for access to the Software or any derivative work based on the Software.
 
 Donations, sponsorships, advertising revenue, crowdfunding, and similar forms of indirect financial support are permitted, provided that payment is not required to obtain or use the Software.
+
+No company, external nor internal may use this software. No company may bundle a modifed version in a payed bundle.
+
+
 
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
