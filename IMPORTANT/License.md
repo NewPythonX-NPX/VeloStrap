@@ -50,6 +50,10 @@ Donations, sponsorships, advertising revenue, crowdfunding, and similar forms of
 
 No company, external nor internal may use this software. No company may bundle a modifed version in a payed bundle.
 
+We define a company as: (all commas are meant as "or/and")
+Office Work,
+Has a HR Team,
+Over 3 people contributing,
 
 
 # Termination Clause
