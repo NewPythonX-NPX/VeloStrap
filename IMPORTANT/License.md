@@ -1,4 +1,4 @@
-# NewPythonX Studio – Official Developer License
+# NewPythonX Studio – Developer License
 
  Last updated: June 7th, 2026
 
