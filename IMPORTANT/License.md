@@ -44,17 +44,16 @@ You may distribute modified versions of the Software only if:
 4. You provide a copy of this License with the distributed version.
 
 **Commercial use & Bundling & Company Use**
-You may not sell, license, rent, sublicense, or otherwise charge a fee for access to the Software or any derivative work based on the Software.
+Commercial Use, Bundling, and Use by Legal Entities
 
-Donations, sponsorships, advertising revenue, crowdfunding, and similar forms of indirect financial support are permitted, provided that payment is not required to obtain or use the Software.
+1. No Sale or Commercial Licensing. You (the Licensee) may not sell, license, rent, sublicense, or otherwise give the Software, or any work based on it, to anyone else for a fee or direct payment.
 
-No company, external nor internal may use this software. No company may bundle a modifed version in a payed bundle.
+2. Indirect Funding is Allowed. You are allowed to receive donations, sponsorships, advertising revenue, crowdfunding money, and similar indirect financial support. This is permitted as long as getting access to or using the Software is not dependent on making that payment.
 
-We define a company as: (all commas are meant as "or/and")
-Office Work,
-Has a HR Team,
-Over 3 people contributing,
-
+3. Definition of a Legal Entity and Prohibition of Use.
+(a) For the purpose of this License, the term "Legal Entity" means any legally recognized organization or association that has its own rights and duties separate from a single individual. This includes, but is not limited to, a registered association (eingetragener Verein), a limited liability company (Gesellschaft mit beschränkter Haftung - GmbH), an entrepreneurial company (Unternehmergesellschaft - UG), a stock corporation (Aktiengesellschaft - AG), a registered cooperative (eingetragene Genossenschaft), a partnership (Personengesellschaft, such as OHG, KG, GbR), or any comparable entity under foreign law.
+(b) The Software may not be used by any Legal Entity, whether it is an outside third party or an internal corporate department or division.
+(c) No Legal Entity may include a modified version of the Software in any paid compilation or software package.
 
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
