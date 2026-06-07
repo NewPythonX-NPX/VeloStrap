@@ -29,10 +29,7 @@ You can change the code for your own use. However, if your modified version turn
 **Sharing modified versions.**
 
 You may share a modified version only if:
-
-The entire modified project stays under this exact same license, and
-
-you include a clear notice of the changes you made, placed in the README or somewhere else visible to the standard user.
+The entire modified project stays under this exact same license, and you must include a clear notice of the changes you made, placed in the README or somewhere else visible to the standard user.
 
 **Commercial use**
 You are strictly forbidden from selling your software for money or using the code to make money. However donations are seperate from gaining money. These are allowed.
