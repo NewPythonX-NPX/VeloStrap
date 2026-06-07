@@ -7,7 +7,7 @@
  Any processing of personal data in connection with the Software shall be subject to applicable data protection laws, including the General    Data Protection Regulation (GDPR), where applicable.
 
 ## Overview
-Subject to the terms and conditions of this License, NewPythonX Studio grants you a non-exclusive, non-transferable, revocable license to use, view, study, modify, and redistribute the Software.
+Subject to the terms and conditions of this License, NewPythonX Studio grants you a non-exclusive, non-transferable, revocable license to use, view, study, modify, and redistribute the Software. This is a source-available licenses. Not a open-source license.
 
 ## Rules You Must Follow
 **Give credit.**
