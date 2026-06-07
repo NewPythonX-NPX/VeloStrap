@@ -32,7 +32,7 @@ You may share a modified version only if:
 The entire modified project stays under this exact same license, and you must include a clear notice of the changes you made, placed in the README or somewhere else visible to the standard user.
 
 **Commercial use**
-You are strictly forbidden from selling your software for money or using the code to make money. However donations are seperate from gaining money. These are allowed.
+You are strictly forbidden from selling your software for money or using the code to make money. By this I mean selling the software, paterons, donations, sponshirships, advertisments and etc are allowed.
 
 ## Related Documents
 This license (i.e markdown file) should be read together with:
