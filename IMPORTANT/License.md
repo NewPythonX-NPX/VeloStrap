@@ -12,11 +12,11 @@ You are free to study, learn from, and modify the source code, as long as you fo
 ## Rules You Must Follow
 **Give credit.**
 
-If you use any part of this code, or if your project uses our code/logic directly (copy and pasting or looking in our code and writing it the exact same way or using your memory to write it the same way), you must clearly credit @horimiya_lover8053 and NewPythonX Studio.
+If you use any part of this code, or if your project uses our code/logic directly (copy and pasting or looking in our code and writing it the exact same way), you must clearly credit @horimiya_lover8053 and NewPythonX Studio in visible part such as your README.
 
 **Don’t use our name or logo.**
 
-You may not use the name “NewPythonX Studio” for the studio behind the project nor the project name or our logo without our permission, except for crediting us, there you can use our name but our logo is still strictly forbidden. If you do, we will enforce our copyright and trademark rights.
+You may not use the name “NewPythonX Studio” for the studio behind the project nor the project name or our logo without our permission, except for crediting us. If you do, we will enforce our copyright rights. All logos are created from ourselfs.
 
 **No responsibility.**
 
