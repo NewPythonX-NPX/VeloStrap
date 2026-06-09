@@ -1,9 +1,9 @@
->! CAUTION:
-Only download from this Github, the website or the itch.io!!! Anyone claiming to be us on a different website or unofficial account
+> [!CAUTION]
+Only download from this Github Repo, the website or the itch.io. Anyone claiming to be us on a different website or unofficial account
 is not affilated with NewPythonX in any way.
 Official Download Links are:
 * 🌌 [Official Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velostrap-npx)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 
 <div align="center">
@@ -75,4 +75,4 @@ Though this means you will lose your saved data.
 * 💬 [Join the VeloStrap Discord](https://discord.gg/CxGzGWmyNz)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 * 🌌 [Official Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velostrap-npx)
