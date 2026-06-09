@@ -7,8 +7,8 @@ Official Download Links are:
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 
 <p align="center">
-    <img src="assets/VeloStrap-Banner-Light.png" width="380">
-    <img src="assets/VeloStrap-Banner-Dark.png" width="380">
+    <img src="assets/VeloStrap-Banner-Light.pnggh-light-mode-only" width="380">
+    <img src="assets/VeloStrap-Banner-Dark.png#gh-dark-mode-only" width="380">
 </p>
 
 --
