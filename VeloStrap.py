@@ -1,7 +1,7 @@
 # =================================================================
 # COPYRIGHT (C) 2026 NEWPYTHONX STUDIOS.
 # ALL RIGHTS RESERVED. 
-# FOUNDER: NewPythonX (Hori
+# FOUNDER: NewPythonX (Hori)
 # THIS CODE IS PROTECTED UNDER THE NPX LICENSE.
 # REMOVING THIS HEADER IS A VIOLATION OF THE EULA AGREEMENT.
 #
