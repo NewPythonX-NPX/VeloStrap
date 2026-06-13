@@ -58,7 +58,7 @@ Commercial Use, Bundling, and Use by Legal Entities
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
 
-If the violation is cured within thirty (30) days after the licensee or a NewPythonX Developer becomes aware of it, the rights granted under this License shall be automatically reinstated. Our studio will attempt to email you once at day 1 and day 15 to attempt to fix the code.
+If the violation is cured within thirty (30) days after the licensee or a NewPythonX Developer becomes aware of it, the rights granted under this License shall be automatically reinstated. Our studio will attempt to email you once at day 1 and day 15 to attempt to fix the code. We will email you with the email you publicly showcase and on our end we wont DMCA-takedown durnig these 30 days.
 
 **Goverened by**
 Governing Law. This License shall be governed by and construed in accordance with the laws of Germany, excluding its conflict of law provisions.
