@@ -20,8 +20,6 @@ For more details, read License.md.
 3. Your Privacy (GDPR)
 We follow German privacy law (GDPR).
 We do NOT collect your data.
-If you're a commercial buyer (someone who paid for a license to use it for money), we only store your Discord username and ID. Nothing else.
-We never touch your Roblox data, we cant even access it.
 
 4. Our Brand
 The name "NewPythonX" and our logo belong to NPX Studios.
