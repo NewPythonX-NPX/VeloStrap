@@ -25,9 +25,10 @@ We do NOT collect your data.
 The name "NewPythonX" and our logo belong to NPX Studios.
 If you use our name or logo without permission, [License.md]
 
-5. No Promises
-VeloStrap is given "as-is."
-We are not responsible for any bugs, crashes, or problems, regardless of cause.
+5. No Responbility
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRIBUTORS, AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY ARISING FROM OR RELATING TO THE USE OF THE SOFTWARE.
 
 6. Code
 You may not remove the header in the code.
