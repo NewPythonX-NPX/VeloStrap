@@ -12,7 +12,7 @@ All rights reserved.
 
 VeloStrap is an independent project and is **not** affiliated with, maintained, or endorsed by Roblox Corporation. 
 
-A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ** *VeloStrap** *. 
+A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ***VeloStrap***. 
 
 > **⚠️ Important Note:**
 > Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new patches drop.
