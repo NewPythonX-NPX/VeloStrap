@@ -15,7 +15,7 @@ VeloStrap is an independent project and is **not** affiliated with, maintained, 
 A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ***VeloStrap***. 
 
 > **⚠️ Important Note:**
-> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new patches drop.
+> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new updates drop. Under German Law, this is not the studio fault, its your own fault.
 
 ---
 
@@ -23,17 +23,17 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Internet Connection:** Required for the initial setup and to fetch the latest Roblox versions automatically.
 * **No Manual Install Needed:** VeloStrap will automatically detect, download, and update Roblox if it isn't found on your system or is outdated
-* **Windows OS Needed:** Currently only Windows is supported, Linux and MacOS not yet.
+* **Selective OS's only:** We currently only stably support Windows OS. Linux Arch and MacOS are **EXPRIMENTAL**. This means they are not thorughly tested and expected to have many bugs.
 
 ---
 
 ## 💎 Credits & Team
 
 **Creator & Lead Developer**
-* **@horimiya_lover8053** - NewPythonX Studio (NPX Studios)
+-  * **@horimiya_lover8053** - NewPythonX Studio (NPX Studios)
 
-**Contributors**
-* **@ilias3208 (703620248036835508)** - Linux compiler & tester (Discord)
+**Human Contributors**
+- * **@ilias3208 (703620248036835508)** - Linux tester (Discord)
 
 **AI Assistants**
 * **ChatGPT (Codex)** - Senior Programmer
