@@ -13,8 +13,6 @@ We follow GDPR principles. Since we collect no data, we are fully compliant.
 1. Your Privacy (GDPR)
 We follow German privacy law (GDPR).
 We do NOT collect your data.
-If you're a commercial user (someone who paid for a license), we only store your Discord username and ID. Nothing else.
-We never touch your Roblox data.
 
 2. No Promises
 VeloStrap is given "as-is."
