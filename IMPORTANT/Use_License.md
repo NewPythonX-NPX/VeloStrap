@@ -21,9 +21,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRIBUTORS, AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY ARISING FROM OR RELATING TO THE USE OF THE SOFTWARE.
 
 3. Utility
-VeloStrap is not endorsed or supported by the Roblox Corperation.
-We only modify the Roblox Client in a way that shouldn't get you banned.
-VeloStrap uses FastFlags inbuilt the Roblox Client to modify most stuff.
+VeloStrap is not endorsed or supported by the Roblox Corporation.
+We only modify the Roblox Client in a way that shouldn't g- no WONT get you banned.
+VeloStrap uses FastFlags inbuilt the Roblox Client to modify fastflag section modifers.
 
 4. Use of License
 NewPythonX gives you a free license to use VeloStrap how and whenever you want to (developers refer to License.md), however
