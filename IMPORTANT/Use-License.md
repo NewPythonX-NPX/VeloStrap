@@ -6,7 +6,7 @@ Last Updated: May 21th 2026
 
 Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
-Legal Jurisdiction: Germany (DE) - GDPR Compliant
+We follow GDPR principles. Since we collect no data, we are fully compliant.
 
 -----------------------------------------------
 
