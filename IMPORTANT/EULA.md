@@ -2,7 +2,7 @@
 # 📜 NewPythonX Studio: End User License Agreement (EULA)
 Project: VeloStrap
 
-Last Updated: June 13th 2026
+Last Updated: June 20th 2026
 
 Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
@@ -11,7 +11,7 @@ We follow GDPR principles. Since we collect no data, we are fully compliant.
 -----------------------------------------------
 
 1. You Agree & Are Bound to These Rules
-By using VeloStrap or joining the community, you agree to this EULA, the License, and the Privacy Policy. If you don't agree, uninstall VeloStrap from your computer. All legal problems will be handled under German law. (Section 10)
+By using VeloStrap or joining the community, you agree to this EULA, the License, and the Privacy Policy. If you don't agree, uninstall VeloStrap from your computer. All legal problems will be handled under German law. (Section 11)
 
 2. What You Can Do
 NPX gives you permission to use VeloStrap for free, for personal use only. You can't sell it or use it to make money.
