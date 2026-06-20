@@ -1,6 +1,6 @@
 # NewPythonX Studio – Developer License
 
- Last updated: June 19th, 2026
+ Last updated: June 20th, 2026
 
   Copyright © 2026 NewPythonX Studio. All rights reserved.
 
@@ -64,8 +64,7 @@ If the violation is cured within thirty (30) days after the licensee or a NewPyt
 Governing Law. This License shall be governed by and construed in accordance with the laws of Germany, excluding its conflict of law provisions.
 
 ## Related Documents
-This license (i.e markdown file) should be read together with:
+This license (i.e markdown file or markdown document) should be read together with:
 
 - EULA.md
-
 - README.md
