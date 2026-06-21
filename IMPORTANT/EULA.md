@@ -41,7 +41,7 @@ NPX Studios is not connected to, supported by, or endorsed by Roblox Corp.
 If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible for that ban, all and every ban is betweent the user and Roblox.
 
 8. Terms updates
-In V0.2.0-Snapshot 1 there is legal agreer, as there isnt a way to check any terms update. Snapshot 3, there we have added a EULA update checker. V0.2.1 introduces a fixed version of the EULA checker introducing Developer License and Use License aswell.
+In V0.2.0-Snapshot 1 there is legal agreer, as there isnt a way to check any terms update. Snapshot 3, there we have added a EULA update checker. V0.2.1 introduces a fixed version of the EULA checker introducing Developer License and Use License aswell. (V0.2.1 is not out currently and is under development)
 
 9. Governed
 This document is governed by german law.
