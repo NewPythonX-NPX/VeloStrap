@@ -58,6 +58,10 @@ Commercial Use, Bundling, and Use by Legal Entities
 4. Exclutuion
 NewPythonX and affilates are excluded from this clause.
 
+5. Definition of a Affilate
+(a) Unlike a affilate as in a affilated with the company it means any company NewPythonX may own in the future or the copyright holder.
+
+
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
 
