@@ -2,7 +2,7 @@
 # 📜 NewPythonX Studio: End User License Agreement (EULA)
 Project: VeloStrap
 
-Last Updated: June 20th 2026
+Last Updated: June 21th 2026
 
 Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
@@ -10,44 +10,38 @@ We follow GDPR principles. Since we collect no data, we are fully compliant.
 
 -----------------------------------------------
 
-1. You Agree & Are Bound to These Rules
-By using VeloStrap or joining the community, you agree to this EULA, the License, and the Privacy Policy. If you don't agree, uninstall VeloStrap from your computer. All legal problems will be handled under German law. (Section 11)
+1. **You Agree & Are Bound to These Rules**
 
-2. What You Can Do
-NPX gives you permission to use VeloStrap for free, for personal use only. You can't sell it or use it to make money.
-For more details, read License.md.
+By clicking you have read, understood and agree to the EULA via clickwrap via app you agree and are bound to this End User License Agreement.
 
-3. Your Privacy (GDPR)
+1. Use of Software License
+[Use_License.md]
+
+2. Your Privacy (GDPR)
 We follow German privacy law (GDPR).
-We do NOT collect your data.
+[Privacy_Policy.md]
 
-4. Our Brand
+3. Our Brand
 The name "NewPythonX" and our logo belong to NPX Studios.
 If you use our name or logo without permission, [License.md]
 
-5. No Responbility
+4. No Responbility
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRIBUTORS, AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY ARISING FROM OR RELATING TO THE USE OF THE SOFTWARE.
 
-6. Code
-You may not remove the header in the code.
-
-7. Roblox's Rules
+5. Roblox's ToS
 VeloStrap has features like Multi-Instance that change how Roblox works.
-You understand that using these features might break Roblox's Terms of Service.
-That is YOUR risk. Not ours.
+You understand that using these features might break Roblox's Terms of Service. You as the user assume all risk of using this feature.
 
-8. We're Not With Roblox
-NPX Studios is not connected to, supported by, or endorsed by Roblox.
+6. We're Not With Roblox
+NPX Studios is not connected to, supported by, or endorsed by Roblox Corp.
 
-9. You Take the Risk
-If you get banned, suspended, or lose your Roblox account, NPX is not responsible.
-You chose to use these features.
+7. You Take the Risk of using a third party launcher
+If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible for that ban, all and every ban is betweent the user and Roblox.
 
-10. EULA Updates
-We announce EULA updates in Discord and on the GitHub repo (commits). It is your responsibility to check periodically. Continued use of VeloStrap after an update means you accept the new terms. You arent required to join the discord, inside of VeloStrap there is a inbuilt notifier that checks for EULA updates and then closes the program and then shows the new EULA and then you need to click "I agree" again,
-all users within the discord will be pinged via @everyone so everybody had a chance to read and understand the new EULA terms.
+8. Terms updates
+In V0.2.0-Snapshot 1 there is legal agreer, as there isnt a way to check any terms update. Snapshot 3, there we have added a EULA update checker. V0.2.1 introduces a fixed version of the EULA checker introducing Developer License and Use License aswell.
 
-12. Legal Problems
-Any legal problems will be handled using German law.
+9. Governed
+This document is governed by german law.
