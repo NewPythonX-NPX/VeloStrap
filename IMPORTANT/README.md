@@ -52,7 +52,7 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 Q: Is this Malware?
 
-A: No, VeloStrap is open source and for everyone to read, learn or study from. Any websites claiming to be us, please
+A: No, VeloStrap is source-avaiable and for everyone to read, learn or study from. Any websites claiming to be us, please
 double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
