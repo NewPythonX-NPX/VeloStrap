@@ -1,13 +1,13 @@
 # NewPythonX Studio – Developer License
 
- Last updated: June 21th, 2026
+ Last updated: June 23rd, 2026
 
   Copyright © 2026 NewPythonX Studio. All rights reserved.
 
  Any processing of personal data in connection with the Software shall be subject to applicable data protection laws, including the General    Data Protection Regulation (GDPR), where applicable.
  
 ## Overview
-Subject to the terms and conditions of this License, NewPythonX Studio grants you a non-exclusive, non-transferable, revocable license to use, view, study, modify, and redistribute the Software. This is a source-available licenses. Not a open-source license.
+Subject to the terms and conditions of this License, NewPythonX Studio grants you a non-exclusive, non-transferable, revocable license to use, view, study, modify, and redistribute the Software. This is a source-available licenses. Not a open-source license. Open-source allows commerical use.
 
 ## Rules You Must Follow
 **Give credit.**
@@ -62,11 +62,14 @@ NewPythonX and affilates are excluded from this clause.
 (a) Unlike a affilate as in a affilated with the company it means any company NewPythonX may own in the future or the copyright holder.
 (b) Copyright holders of NewPythonX or VeloStrap and its future companies/studios.
 
-
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
 
-If the violation is cured within thirty (30) days after the licensee or a NewPythonX Developer becomes aware of it, the rights granted under this License shall be automatically reinstated. Our studio will attempt to email you once at day 1 and day 15 to attempt to fix the code. We will email you with the email you publicly showcase and on our end we wont DMCA-takedown durnig these 30 days.
+If the violation is cured within thirty (30) days after the licensee or a NewPythonX Developer becomes aware of it, the rights granted under this License shall be automatically reinstated. Our studio will attempt to email you once at day 1 and day 15 to attempt to fix the code. We will email you with the email you publicly showcase and on our end we wont DMCA-takedown durnig these 30 days. 
+
+Exclusions for these cure days:
+- Selling software with our code in it and its confirmed.
+- Made something illegal under German Law with our code.
 
 **Goverened by**
 Governing Law. This License shall be governed by and construed in accordance with the laws of Germany, excluding its conflict of law provisions.
