@@ -34,7 +34,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRI
 VeloStrap has features like Multi-Instance that change how Roblox works.
 You understand that using these features might break Roblox's Terms of Service. You as the user assume all risk of using this feature.
 
-6. We're Not With Roblox
+6. We are not affilated with Roblox
 NPX Studios is not connected to, supported by, or endorsed by Roblox Corp.
 
 7. You Take the Risk of using a third party launcher
@@ -43,5 +43,8 @@ If you get banned, suspended, or lose your Roblox account, VeloStrap is not resp
 8. Terms updates
 In V0.2.0-Snapshot 1 there is legal agreement, as there isnt a way to check any terms update. Snapshot 3, there we have added a EULA update checker. V0.2.0-Snapshot 4 introduces a fixed version of the EULA checker introducing Developer License and Use License aswell.
 
-9. Governed
-This document is governed by german law.
+9. Severability
+If any provision of this EULA is found to be unenforceable, the remaining provisions remain in full force unless enforaceable aswell.
+
+10. Governed
+This document is governed by German Law.
