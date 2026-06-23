@@ -55,11 +55,12 @@ Commercial Use, Bundling, and Use by Legal Entities
 (b) The Software may not be used by any Legal Entity, whether it is an outside third party or an internal corporate department or division.
 (c) No Legal Entity may include a modified version of the Software in any paid compilation or software package.
 
-4. Exclutuion
+4. Exclusions
 NewPythonX and affilates are excluded from this clause.
 
 5. Definition of a Affilate
 (a) Unlike a affilate as in a affilated with the company it means any company NewPythonX may own in the future or the copyright holder.
+(b) Copyright holders of NewPythonX or VeloStrap and its future companies/studios.
 
 
 # Termination Clause
