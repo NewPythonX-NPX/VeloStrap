@@ -29,5 +29,3 @@ NewPythonX Studio grants you a free, non-exclusive license to use VeloStrap as y
 **Goverened by**
 
 Governing Law. This License shall be governed by and construed in accordance with the laws of Germany, excluding its conflict of law provisions.
-
-## Related Documents
