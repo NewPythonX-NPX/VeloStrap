@@ -25,7 +25,7 @@ We follow German privacy law (GDPR).
 The name "NewPythonX" and our logo belong to NPX Studios.
 If you use our name or logo without permission, [License.md]
 
-4. No Responbility
+4. No Responsibility
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRIBUTORS, AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY ARISING FROM OR RELATING TO THE USE OF THE SOFTWARE.
@@ -38,10 +38,10 @@ You understand that using these features might break Roblox's Terms of Service. 
 NPX Studios is not connected to, supported by, or endorsed by Roblox Corp.
 
 7. You Take the Risk of using a third party launcher
-If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible for that ban, all and every ban is betweent the user and Roblox.
+If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible for that ban, all and every ban is between the user and Roblox.
 
 8. Terms updates
-In V0.2.0-Snapshot 1 there is legal agreer, as there isnt a way to check any terms update. Snapshot 3, there we have added a EULA update checker. V0.2.1 introduces a fixed version of the EULA checker introducing Developer License and Use License aswell. (V0.2.1 is not out currently and is under development)
+In V0.2.0-Snapshot 1 there is legal agreement, as there isnt a way to check any terms update. Snapshot 3, there we have added a EULA update checker. V0.2.0-Snapshot 4 introduces a fixed version of the EULA checker introducing Developer License and Use License aswell.
 
 9. Governed
 This document is governed by german law.
