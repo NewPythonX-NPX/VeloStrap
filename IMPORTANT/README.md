@@ -42,9 +42,9 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Claude AI** - Backup Programmar 
 
-* **Deepseek** - Depracted of Use
+* **Deepseek** - Backup of Backup Programmar
 
-* **Gemini** - Depracted of Use
+* **Gemini** - Deprecated of Use
 
 ---
 
@@ -67,7 +67,7 @@ Though this means you will lose your saved fastflags/mods or custom fastflags.
 - Profile System
 - Fastflags
 - Mods
-- Apperance changing
+- Appearance changing
 - and more to explore!
 
 ---
