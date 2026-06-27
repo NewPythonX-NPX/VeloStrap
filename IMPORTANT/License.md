@@ -60,12 +60,11 @@ NewPythonX and affilates are excluded from this clause.
 
 5. Definition of a Affilate
 (a) For purposes of this License, 'Affiliate' means any entity owned or controlled by the original copyright holder of the Software, including any future entities they may establish.
-(b) Copyright holders of NewPythonX or VeloStrap and its future companies/studios if owned by the same Developer.
 
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
 
-If the violation is cured within thirty (30) days after the licensee or a NewPythonX Developer becomes aware of it, the rights granted under this License shall be automatically reinstated. Our studio will attempt to email you once at day 1 and day 15 to attempt to fix the code. We will email you with the email you publicly showcase on Github and on our end we wont DMCA-takedown durnig these 30 days.
+If the violation is cured within thirty (30) days after the licensee or NewPythonX becomes aware of it, the rights granted under this License shall be automatically reinstated. Our studio will attempt to email you once at day 1 and day 15 to attempt to fix the code. We will email you with the email you publicly showcase on Github and on our end we wont DMCA-takedown durnig these 30 days.
 
 The 30-day cure period does not apply, and this License terminates immediately with no opportunity for reinstatement, if the violation involves:
 (a) Selling, licensing, or commercializing the Software or any derivative work in violation of "**Commercial use & Bundling & Company Use**".
