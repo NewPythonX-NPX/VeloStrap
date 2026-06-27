@@ -1,7 +1,7 @@
 # 🎁 VeloStrap
 
-VeloStrap helps people with Roblox's FPS as some people are on low-end devices and don't have any good bootstrapper
-to boost their FPS. And we're gunna switch to deep modding instead now.
+VeloStrap is a deep modding tool for Roblox, helping players customize their experience and boost performance.
+*"Deep modding is fun"*
 
 Copyright (c) 2026 @horimiya_lover8053 & NewPythonX Studio
 All rights reserved.
