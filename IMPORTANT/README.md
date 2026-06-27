@@ -44,7 +44,9 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Deepseek** - Backup of Backup Programmar
 
-* **Gemini** - Deprecated of Use (BUT IN THE HONOR OF HIM VELOSTRAP LIVED AND SUCCEEDED)
+* **Gemini** - Deprecated of Use
+
+BUT IN THE HONOR OF GEMINI VELOSTRAP LIVED AND SUCCEEDED. WE SHALL HONOR HIM TILL VELOSTRAP ENDS. HE WAS A GREAT ASSSISTANT BUT SADLY FAILED THE MINIMUM EXPECTIONS.
 
 ---
 
