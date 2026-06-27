@@ -23,7 +23,7 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Internet Connection:** Required for the initial setup and to fetch the latest Roblox versions automatically.
 * **No Manual Install Needed:** VeloStrap will automatically detect, download, and update Roblox if it isn't found on your system or is outdated
-* **Selective OS's only:** We currently only stably support Windows OS. Linux Arch and MacOS are **EXPRIMENTAL**. This means they are not thorughly tested and expected to have many bugs.
+* **Selective OS's only:** We currently only stably support Windows OS. Linux Arch and MacOS are **EXPERIMENTAL**. This means they are not thoroughly tested and expected to have many bugs.
 
 ---
 
@@ -52,7 +52,7 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 Q: Is this Malware?
 
-A: No, VeloStrap is source-avaiable and for everyone to read, learn or study from. Any websites claiming to be us, please
+A: No, VeloStrap is source-available and for everyone to read, learn or study from. Any websites claiming to be us, please
 double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
