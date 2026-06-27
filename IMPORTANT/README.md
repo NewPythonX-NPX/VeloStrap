@@ -36,9 +36,9 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 - * **@ilias3208 (703620248036835508)** - Linux tester (Discord)
 
 **AI Assistants**
-* **ChatGPT (Codex)** - Senior Programmer
+* **Codex (ChatGPT)** - Senior Programmer
 
-* **Cursor** - Programmar
+* **Cursor** - Senior Programmar
 
 * **Claude AI** - Backup Programmar 
 
