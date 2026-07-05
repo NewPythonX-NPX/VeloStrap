@@ -11,7 +11,7 @@ We follow GDPR principles. Since we collect no data, we are fully compliant.
 
 ## 1. You Agree to These Rules
 
-By clicking "I Agree" or using the app, you confirm you've read, understood, and accepted this End User License Agreement. If you don't agree, don't use the software.
+By clicking 'I Agree,' you confirm you've read, understood, and accepted this End User License Agreement. You cannot use the software unless you have agreed to these terms. Continued use of the software after an update to this agreement constitutes acceptance of the updated terms, provided we have notified you of the change
 
 ## 2. Software License
 
