@@ -56,10 +56,7 @@ Commercial Use, Bundling, and Use by Legal Entities
 (c) No Legal Entity may include a modified version of the Software in any paid compilation or software package.
 
 4. Exclusions
-NewPythonX and affilates are excluded from this clause.
-
-5. Definition of a Affilate
-(a) For purposes of this License, 'Affiliate' means any entity owned or controlled by the original copyright holder of the Software, including any future entities they may establish.
+All commercial rights not explicitly granted in this License are reserved by NewPythonX Studio.
 
 # Termination Clause
 Any violation of this License automatically terminates the rights granted under it.
