@@ -1,6 +1,6 @@
 # NewPythonX Studio – Developer License
 
- Last updated: June 27th, 2026
+ Last updated: July 6th, 2026
 
   Copyright © 2026 NewPythonX Studio. All rights reserved.
 
@@ -42,6 +42,11 @@ You may distribute modified versions of the Software only if:
 2. You include a clear notice describing the modifications you made.
 3. You retain all copyright notices and attribution requirements contained in this License.
 4. You provide a copy of this License with the distributed version.
+
+**HEADER MODIFICATION**
+
+Without explict consent from NewPythonX Studio, you are not allowed to remove the header
+in the code. Consent must be in written and if NPX asks for proof of agreement then you are required to show proof.
 
 **Commercial use & Bundling & Company Use**
 Commercial Use, Bundling, and Use by Legal Entities
