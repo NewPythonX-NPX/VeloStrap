@@ -5,7 +5,7 @@
 
 Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
-We follow GDPR principles. Since we collect no data, we are fully compliant.
+VeloStrap is a third-party tool and is not affiliated with, endorsed by, or sponsored by Roblox Corporation.
 
 -----------------------------------------------
 
@@ -35,7 +35,7 @@ TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRI
 
 ## Roblox's Terms of Service
 
-VeloStrap includes features like Multi-Instance that change how Roblox works. You understand that using these features might break Roblox's Terms of Service. You, the user, assume all risk of using these features.
+VeloStrap includes features like Multi-Instance that change how Roblox works. You understand that using these features could potentially violate Roblox's Terms of Service. You assume all risk.
 
 ## We're Not Affiliated with Roblox
 
@@ -45,7 +45,7 @@ NPX Studios is not connected to, supported by, or endorsed by Roblox Corporation
 
 If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible. Any ban is strictly between you and Roblox.
 
-## Updates to These Terms
+## Updates to NewPythonX's Terms
 
 - **V0.2.0-Snapshot 1:** Original legal agreement.
 - **Snapshot 3:** Since there was no way to check for term updates, we added an EULA update checker.
