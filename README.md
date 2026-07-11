@@ -56,10 +56,9 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 ## ❓ Frequently Asked Questions
 
-Q: Is this Malware?
+Q: Is this Roblox Launcher Malware?
 
-A: No, VeloStrap is open source and for everyone to read, learn or study from. Any websites claiming to be us, please
-double check with the official links linked within discord and Github.
+A: No, VeloStrap is source-available and for everyone to read, learn or study from. Any websites claiming to be us, please double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
 
