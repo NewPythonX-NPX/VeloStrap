@@ -13,11 +13,6 @@ VeloStrap is a third-party tool and is not affiliated with, endorsed by, or spon
 
 By clicking 'I Agree,' you confirm you've read, understood, and accepted this End User License Agreement. You cannot use the software unless you have agreed to these terms. Continued use of the software after an update to this agreement constitutes acceptance of the updated terms, provided we have notified you of the change
 
-## Software License
-
-Your right to use this software is covered by our Use License, which you can find here:
-[Use_License.md](Use_License.md)
-
 ## Your Privacy (GDPR)
 
 We follow German privacy law (GDPR). How we handle your information is explained here:
