@@ -1,10 +1,10 @@
 -----------------------------------------------
 # 📜 NewPythonX Studio: End User License Agreement (EULA)
 
-**Last Updated:** July 7th, 2026
+**Last Updated:** July 12th, 2026
 
-Copyright (c) 2026 NewPythonX Studio. All rights reserved.
-
+Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
+  
 VeloStrap is a third-party tool and is not affiliated with, endorsed by, or sponsored by Roblox Corporation.
 
 -----------------------------------------------
