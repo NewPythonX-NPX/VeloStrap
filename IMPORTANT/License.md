@@ -2,7 +2,7 @@
 
  Last updated: July 6th, 2026
 
-  Copyright © 2026 NewPythonX Studio. All rights reserved.
+  Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
 
  Any processing of personal data in connection with the Software shall be subject to applicable data protection laws, including the General    Data Protection Regulation (GDPR), where applicable.
  
@@ -42,6 +42,10 @@ You may distribute modified versions of the Software only if:
 2. You include a clear notice describing the modifications you made.
 3. You retain all copyright notices and attribution requirements contained in this License.
 4. You provide a copy of this License with the distributed version.
+
+## Severability
+
+If any part of this License is found to be unenforceable, the rest of it remains in full effect, as long as the remaining parts can still be enforced.
 
 **HEADER MODIFICATION**
 
