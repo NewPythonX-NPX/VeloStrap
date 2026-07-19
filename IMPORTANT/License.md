@@ -1,6 +1,6 @@
 # NewPythonX Studio – Developer License
 
- Last updated: July 12th, 2026
+ Last updated: July 20th, 2026
 
   Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
 
@@ -19,6 +19,9 @@ NewPythonX Studio & @horimiya_lover8053.
 Their Github: https://github.com/NewPythonX-NPX/
 Itch.io: https://newpythonx.itch.io
 "
+
+**Official Link Removal**
+You must remove the official links in the code, these links are only requests for offical NewPythonX Apps to request.
 
 **Don’t use our name or logo.**
 
