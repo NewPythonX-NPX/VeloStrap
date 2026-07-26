@@ -15,10 +15,11 @@ Official Download Links are:
 
 # 🎁 VeloStrap
 
-VeloStrap helps people with Roblox's FPS as some people are on low-end devices and don't have any good bootstrapper
-to boost their FPS.
+VeloStrap is a deep modding tool for Roblox, helping players customize their experience and boost performance.
+*"Deep modding is fun"*
 
-Copyright (c) 2026 NewPythonX Studio. All rights reserved.
+Copyright (c) 2026 @horimiya_lover8053 & NewPythonX Studio
+All rights reserved.
 
 ---
 
@@ -26,10 +27,10 @@ Copyright (c) 2026 NewPythonX Studio. All rights reserved.
 
 VeloStrap is an independent project and is **not** affiliated with, maintained, or endorsed by Roblox Corporation. 
 
-A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ** *VeloStrap** *. 
+A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ***VeloStrap***. 
 
 > **⚠️ Important Note:**
-> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new patches drop.
+> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new updates drop. Under German Law, this is not the studio fault, its your own fault.
 
 ---
 
@@ -37,33 +38,54 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Internet Connection:** Required for the initial setup and to fetch the latest Roblox versions automatically.
 * **No Manual Install Needed:** VeloStrap will automatically detect, download, and update Roblox if it isn't found on your system or is outdated
-* **Windows OS Needed:** Currently only Windows is supported, Linux and MacOS not yet.
+* **Selective OS's only:** We currently only stably support Windows OS. Linux Arch and MacOS are **EXPERIMENTAL**. This means they are not thoroughly tested and expected to have many bugs.
 
 ---
 
 ## 💎 Credits & Team
 
 **Creator & Lead Developer**
-* **@horimiya_lover8053** - NewPythonX Studio (NPX)
-* Frontend Programmar (no backend, and text as frontend)
+-  * **@horimiya_lover8053** - NewPythonX Studio (NPX Studios)
+
+**Human Contributors**
+- * **@ilias3208 (703620248036835508)** - Linux tester (Discord)
 
 **AI Assistants**
-* **ChatGPT (Codex)** - Lead Programmar
-* **DeepSeek** - New Programmar
-* **Gemini (Pro)** - Deprecated Use
+* **Codex (ChatGPT)** - Senior Programmer
+
+* **Cursor** - Senior Programmar
+
+* **Claude AI** - Backup Programmar 
+
+* **Deepseek** - Backup of Backup Programmar
+
+* **Gemini** - Deprecated of Use
+
+BUT IN THE HONOR OF GEMINI VELOSTRAP LIVED AND SUCCEEDED. WE SHALL HONOR HIM TILL VELOSTRAP ENDS. HE WAS A GREAT ASSSISTANT BUT SADLY FAILED THE MINIMUM EXPECTIONS. Sad to see the first to go, but we shall never forget his honor.
 
 ---
 
 ## ❓ Frequently Asked Questions
 
-Q: Is this Roblox Launcher Malware?
+Q: Is this Malware?
 
-A: No, VeloStrap is source-available and for everyone to read, learn or study from. Any websites claiming to be us, please double check with the official links linked within discord and Github.
+A: No, VeloStrap is source-available and for everyone to read, learn or study from. Any websites claiming to be us, please
+double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
 
-A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: config.json, profile_saves.json, disclaimer.json.
-Though this means you will lose your saved data.
+A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: Config.json, profile_saves.json.
+Though this means you will lose your saved fastflags/mods or custom fastflags.
+
+---
+
+## ⚙ Features
+
+- Profile System
+- Fastflags
+- Mods
+- Appearance changing
+- and more to explore!
 
 ---
 
@@ -74,5 +96,5 @@ Though this means you will lose your saved data.
 * 💬 [Join the NewPythonX Discord](https://discord.gg/6SvNjbkcAN)
 * 💬 [Join the VeloStrap Discord](https://discord.gg/CxGzGWmyNz)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
-* 🌌 [Official Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velostrap-npx)
+* 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
