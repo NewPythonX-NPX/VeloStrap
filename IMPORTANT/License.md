@@ -1,6 +1,6 @@
 # NewPythonX Studio – Developer License
 
- Last updated: July 20th, 2026
+ Last updated: July 27th, 2026
 
   Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
 
@@ -12,10 +12,10 @@ Subject to the terms and conditions of this License, NewPythonX Studio grants yo
 ## Rules You Must Follow
 **Give credit.**
 
-If you distribute the Software or any modified version of the Software, you must include a visible attribution notice crediting "@horimiya_lover8053" and "NewPythonX Studio" in the project's README file or other prominent documentation. This attribution notice must remain intact in all redistributed versions. The following attribution text must be included:
+If you distribute the Software or any modified version of the Software, you must include a visible attribution notice crediting "@maname_s0ul" and "NewPythonX Studio" in the project's README file or other prominent documentation. This attribution notice must remain intact in all redistributed versions. The following attribution text must be included:
 
 "Credits to:
-NewPythonX Studio & @horimiya_lover8053.
+NewPythonX Studio & @maname_s0ul.
 Their Github: https://github.com/NewPythonX-NPX/
 Itch.io: https://newpythonx.itch.io
 "
