@@ -1,7 +1,7 @@
 -----------------------------------------------
 # 📜 NewPythonX Studio: End User License Agreement (EULA)
 
-**Last Updated:** July 12th, 2026
+**Last Updated:** July 27th, 2026
 
 Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
   
@@ -48,7 +48,7 @@ If you get banned, suspended, or lose your Roblox account, VeloStrap is not resp
 
 ## Severability
 
-If any part of this EULA is found to be unenforceable, the rest of it remains in full effect, as long as the remaining parts can still be enforced.
+If any part of this EULA or the whole EULA is found to be unenforceable, the rest of it remains in full effect, as long as the remaining parts can still be enforced.
 
 ## Governing Law
 
