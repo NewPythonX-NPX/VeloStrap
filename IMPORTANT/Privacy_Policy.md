@@ -1,1 +1,1 @@
-https://github.com/NewPythonX-NPX/RequiredByUs/blob/main/Privacy%20Policy.md
+https://raw.githubusercontent.com/NewPythonX-NPX/RequiredByUs/refs/heads/main/Privacy%20Policy.md
