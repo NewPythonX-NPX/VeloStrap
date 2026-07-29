@@ -81,7 +81,7 @@ Though this means you will lose your saved fastflags/mods or custom fastflags.
 > **🔒 Security Note:** If the Discord server owner user id is not `1236734895577894943`  or `1250418429156917408`, the server is not affiliated with the official NewPythonX Studios. Stay safe and only join official links!
 
 * 💬 [Join the NewPythonX Discord](https://discord.gg/6SvNjbkcAN)
-* 💬 [Join the VeloStrap Discord](https://discord.gg/CxGzGWmyNz)
+* 💬 [Join the VeloStrap Discord](https://dsc.gg/velostrap-npx)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 * 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
 * ℹ [Official Itch.io Download](https://newpythonx.itch.io/velostrap-npx)
