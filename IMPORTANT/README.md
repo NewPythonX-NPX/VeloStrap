@@ -3,7 +3,7 @@
 VeloStrap is a deep modding tool for Roblox, helping players customize their experience and boost performance.
 *"Deep modding is fun"*
 
-Copyright (c) 2026 @horimiya_lover8053 & NewPythonX Studio
+Copyright (c) 2026 @maname_s0ul & NewPythonX Studio
 All rights reserved.
 
 ---
@@ -71,6 +71,7 @@ Though this means you will lose your saved fastflags/mods or custom fastflags.
 - Fastflags
 - Mods
 - Appearance changing
+- Fuctional Launch
 - and more to explore!
 
 ---
@@ -83,4 +84,4 @@ Though this means you will lose your saved fastflags/mods or custom fastflags.
 * 💬 [Join the VeloStrap Discord](https://discord.gg/CxGzGWmyNz)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 * 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
+* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velostrap-npx)
