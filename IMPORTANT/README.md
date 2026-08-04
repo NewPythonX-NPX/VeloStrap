@@ -15,7 +15,7 @@ VeloStrap is an independent project and is **not** affiliated with, maintained, 
 A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ***VeloStrap***. 
 
 > **⚠️ Important Note:**
-> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new updates drop. Under German Law, this is not the studio fault, its your own fault.
+> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new updates drop.
 
 ----
 
