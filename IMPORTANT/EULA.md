@@ -1,7 +1,7 @@
 -----------------------------------------------
 # 📜 NewPythonX Studio: End User License Agreement (EULA)
 
-**Last Updated:** July 27th, 2026
+**Last Updated:** August 7th, 2026
 
 Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
   
@@ -16,11 +16,11 @@ By clicking 'I Agree,' you confirm you've read, understood, and accepted this En
 ## Your Privacy (GDPR)
 
 We follow German privacy law (GDPR). How we handle your information is explained here:
-[Privacy_Policy.md](Privacy_Policy.md)
+[Privacy_Policy](Privacy_Policy.md)
 
 ## Our Studio's Property
 
-The name "NewPythonX" and our logo belong to NPX Studios. If you use our name or logo without permission, the terms in [License.md] apply.
+The name "NewPythonX" and our logo belong to NPX Studios. If you use our name or logo without permission, the terms in [License](License.md) apply.
 
 ## No Liablity
 
@@ -45,6 +45,7 @@ If you get banned, suspended, or lose your Roblox account, VeloStrap is not resp
 - **V0.2.0-Snapshot 1:** Original legal agreement.
 - **Snapshot 3:** Since there was no way to check for term updates, we added an EULA update checker.
 - **V0.2.0-Snapshot 4:** Introduced a fixed version of the EULA checker, along with the Developer License and Use License.
+- **V0.2.1:** Deleted Use License, replaced with [Privacy_Policy](Privacy_Policy.md)
 
 ## Severability
 
