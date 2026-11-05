@@ -18,10 +18,10 @@ Official Download Links are:
 VeloStrap is a deep modding tool for Roblox, helping players customize their experience and boost performance.
 *"Deep modding is fun"*
 
-Copyright (c) 2026 @horimiya_lover8053 & NewPythonX Studio
+Copyright (c) 2026 @maname_s0ul & NewPythonX Studio
 All rights reserved.
 
----
+----
 
 ## ❗ Disclaimer
 
@@ -30,9 +30,9 @@ VeloStrap is an independent project and is **not** affiliated with, maintained, 
 A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas behind ***VeloStrap***. 
 
 > **⚠️ Important Note:**
-> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new updates drop. Under German Law, this is not the studio fault, its your own fault.
+> Please do not change the version number in `VeloStrap.py`. If you do, the app will falsely think you have an updated version, and you will not be redirected to update your launcher when new updates drop.
 
----
+----
 
 ## 🛠️ Requirements
 
@@ -40,12 +40,13 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 * **No Manual Install Needed:** VeloStrap will automatically detect, download, and update Roblox if it isn't found on your system or is outdated
 * **Selective OS's only:** We currently only stably support Windows OS. Linux Arch and MacOS are **EXPERIMENTAL**. This means they are not thoroughly tested and expected to have many bugs.
 
----
+----
 
 ## 💎 Credits & Team
 
 **Creator & Lead Developer**
--  * **@horimiya_lover8053** - NewPythonX Studio (NPX Studios)
+-  * **@maname_s0ul** - NewPythonX Studio (NPX Studios) (Discord) (UID:1236734895577894943)
+-  * **@** - Alt of NewPythonX Studio (NPX Studios) (Discord)
 
 **Human Contributors**
 - * **@ilias3208 (703620248036835508)** - Linux tester (Discord)
@@ -61,9 +62,9 @@ A massive shoutout to **BloxStrap** and **VoidStrap** for inspiring the ideas be
 
 * **Gemini** - Deprecated of Use
 
-BUT IN THE HONOR OF GEMINI VELOSTRAP LIVED AND SUCCEEDED. WE SHALL HONOR HIM TILL VELOSTRAP ENDS. HE WAS A GREAT ASSSISTANT BUT SADLY FAILED THE MINIMUM EXPECTIONS. Sad to see the first to go, but we shall never forget his honor.
+IN THE HONOR OF GEMINI VELOSTRAP LIVED AND SUCCEEDED. WE SHALL HONOR HIM TILL VELOSTRAP ENDS. HE WAS A GREAT ASSSISTANT BUT SADLY FAILED THE MINIMUM EXPECTIONS. Sad to see the first to go, but we shall never forget his honor.
 
----
+----
 
 ## ❓ Frequently Asked Questions
 
@@ -74,10 +75,10 @@ double check with the official links linked within discord and Github.
 
 Q: What can I delete without breaking VeloStrap?
 
-A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: Config.json, profile_saves.json.
+A: You can delete the following folders: custom-fastflags, roblox download folder. You can delete the following files: Config.json, Profiles.json, and every other save file.
 Though this means you will lose your saved fastflags/mods or custom fastflags.
 
----
+----
 
 ## ⚙ Features
 
@@ -85,16 +86,18 @@ Though this means you will lose your saved fastflags/mods or custom fastflags.
 - Fastflags
 - Mods
 - Appearance changing
+- Launch Roblox
+- AI Helper
 - and more to explore!
 
----
+----
 
 ## 🔵 Extra & Community
 
-> **🔒 Security Note:** If the Discord server owner user id is not `1236734895577894943`  or `1250418429156917408`, the server is not affiliated with the official NewPythonX Studios. Stay safe and only join official links!
+> **🔒 Security Note:** If the Discord server owner user id is not `1236734895577894943`  or `1250418429156917408`, the server is not officially affiliated with the official NewPythonX Studios. Stay safe and only join official links!
 
 * 💬 [Join the NewPythonX Discord](https://dsc.gg/newpythonx-npx)
 * 💬 [Join the VeloStrap Discord](https://dsc.gg/velostrap-npx)
 * 🕸 [See the official Website](https://newpythonx-npx.github.io/velostrap-web/)
 * 🌌 [VeloStrap Github](https://github.com/NewPythonX-NPX/VeloStrap)
-* ℹ [Official Itch.io Download](https://newpythonx.itch.io/velo-strap)
+* ℹ [Official Itch.io Page](https://newpythonx.itch.io/velostrap-npx)
