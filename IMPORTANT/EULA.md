@@ -1,13 +1,16 @@
 -----------------------------------------------
+
 # 📜 NewPythonX Studio: End User License Agreement (EULA)
 
-**Last Updated:** August 7th, 2026
+**Last Updated:** November 5th, 2026
 
 Copyright © 2026 - Present NewPythonX Studio. All rights reserved.
-  
+
 VeloStrap is a third-party tool and is not affiliated with, endorsed by, or sponsored by Roblox Corporation.
+Nor owned by a Roblox Admin or otherwise.
 
 -----------------------------------------------
+
 
 ## You Agree to These Rules
 
@@ -16,6 +19,7 @@ By clicking 'I Agree,' you confirm you've read, understood, and accepted this En
 ## Your Privacy (GDPR)
 
 We follow German privacy law (GDPR). How we handle your information is explained here:
+
 [Privacy_Policy](Privacy_Policy.md)
 
 ## Our Studio's Property
@@ -28,24 +32,22 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, NEWPYTHONX STUDIO, ITS CONTRIBUTORS, AND COPYRIGHT HOLDERS SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES, LOSSES, OR OTHER LIABILITY ARISING FROM OR RELATING TO THE USE OF THE SOFTWARE.
 
+THIS SOFTWARE IS UNABLE TO CAUSE REAL HARM TO YOU IN REAL LIFE OR OTHER PEOPLE.
+
 ## Roblox's Terms of Service
 
 VeloStrap includes features like Multi-Instance that change how Roblox works. You understand that using these features could potentially violate Roblox's Terms of Service. You assume all risk.
 
+We only allow the use of it not the recommendation to use it. Use at your own risk.
+
 ## We're Not Affiliated with Roblox
 
 NPX Studios is not connected to, supported by, or endorsed by Roblox Corporation.
+Nor owned by a Roblox Admin or otherwise.
 
 ## You Accept the Risk of Third-Party Launchers
 
-If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible. Any ban is strictly between you and Roblox.
-
-## Updates to NewPythonX's Terms
-
-- **V0.2.0-Snapshot 1:** Original legal agreement.
-- **Snapshot 3:** Since there was no way to check for term updates, we added an EULA update checker.
-- **V0.2.0-Snapshot 4:** Introduced a fixed version of the EULA checker, along with the Developer License and Use License.
-- **V0.2.1:** Deleted Use License, replaced with [Privacy_Policy](Privacy_Policy.md)
+If you get banned, suspended, or lose your Roblox account, VeloStrap is not responsible. Any ban or moderation is strictly between you and Roblox Support.
 
 ## Severability
 
@@ -53,4 +55,4 @@ If any part of this EULA or the whole EULA is found to be unenforceable, the res
 
 ## Governing Law
 
-This document is governed by German law.
+This document is governed by German law and if possible will be fought with using german laws.
